@@ -88,3 +88,6 @@ consideracoes:
 
 
 	Prática de Ensino ou História da Física, a escolha do estilo "Mauricio de Sousa" visa criar conexão emocional e facilitar a alfabetização científica de alunos do Ensino Fundamental, aproximando o "gênio" Newton da realidade das crianças. 
+
+
+Licenciado sob [CC BY 4.0](https://creativecommons.org
