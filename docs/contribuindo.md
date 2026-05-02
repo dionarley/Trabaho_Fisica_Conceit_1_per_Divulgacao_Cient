@@ -6,7 +6,7 @@ Obrigado pelo interesse em contribuir com este projeto acadêmico! Este document
 
 Antes de contribuir, preencha o formulário de cadastro:
 
-**Formulário Google:** [Cadastro de Membros - Projeto Isaac Newton](https://forms.gle/COLOQUE_O_LINK_AQUI)
+**Formulário Google:** [Cadastro de Membros - Projeto Isaac Newton](https://forms.gle/xCesouPkVSyFJ43F7)
 
 Após preencher, seus dados estarão disponíveis na planilha: `planilhas/membros-grupo.csv`
 

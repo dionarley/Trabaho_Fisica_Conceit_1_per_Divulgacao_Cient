@@ -123,7 +123,7 @@ O PDF é gerado via plugin `mkdocs-with-pdf` (controlado por `ENABLE_PDF_EXPORT=
 
 ## Formulário de Cadastro
 
-Membros do grupo devem preencher: **[Formulário Google - Cadastro de Membros](https://forms.gle/COLOQUE_O_LINK_AQUI)**
+Membros do grupo devem preencher: **[Formulário Google - Cadastro de Membros](https://forms.gle/xCesouPkVSyFJ43F7)**
 
 Dados ficam disponíveis em: `planilhas/membros-grupo.csv`
 
