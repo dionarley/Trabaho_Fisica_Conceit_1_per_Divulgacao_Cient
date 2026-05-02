@@ -3,12 +3,12 @@
 ## Repository Overview
 
 This repository contains academic work for the Conceptual Physics I course at Unimontes.
-The content focuses on Isaac Newton's life and scientific contributions, presented in an
-educational comic book format inspired by Mauricio de Sousa's style.
+The content focuses on Isaac Newton's scientific contributions for educational purposes.
 
 **Professor:** Vitor Monteiro
 **Schedule:** Tue, Thu 19:10 - 20:50
-**Group Work:** The comic script (roteiro) will be defined by group members/colleagues
+**Group Work:** The scope and format will be defined by group members/colleagues
+**Status:** Scope not yet fully defined - initial references included Newton's life phases
 **GitHub Repository:** https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
 **GitHub Pages:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
@@ -139,10 +139,33 @@ git push origin main
 ## Notes for AI Agents
 
 - This repository contains educational content in Portuguese
-- The main creative work (comic script) will be defined by group members in `Documentos/README.txt`
+- The project scope is not yet fully defined by the group
+- References to Newton's life phases were initial draft ideas, not final scope
 - When modifying documents, preserve the original formatting and intent
 - Respect the CC BY-NC-SA 4.0 license for all contributions
 - No automated testing exists; verify changes manually
 - The `.license.txt` file is intentionally gitignored
+- MkDocs documentation structure is ready for future content as scope defines
 - MkDocs documentation is hosted at: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
 - GitHub repository: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+
+## Suggested MkDocs Pages for Undefined Scope
+
+As the project scope is being defined, consider these documentation pages:
+
+```
+docs/
+├── index.md           # Project overview and current status
+├── sobre.md           # About the project and objectives
+├── proposta.md        # Initial proposal and ideas (draft)
+├── referencias.md     # Academic references and research
+├── rascunhos.md       # Drafts and work-in-progress
+├── contribuindo.md    # How to contribute
+└── licenca.md        # License details
+```
+
+Additional pages to consider based on final scope:
+- `metodologia.md` - Methodology (for academic rigor)
+- `cronograma.md` - Timeline and milestones
+- `recursos.md` - Resources and materials
+- `rascunhos/ideias.md` - Brainstorming and ideas
