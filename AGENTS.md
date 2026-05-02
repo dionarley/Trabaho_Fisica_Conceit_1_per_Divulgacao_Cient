@@ -8,6 +8,7 @@ educational comic book format inspired by Mauricio de Sousa's style.
 
 **Professor:** Vitor Monteiro
 **Schedule:** Tue, Thu 19:10 - 20:50
+**Group Work:** The comic script (roteiro) will be defined by group members/colleagues
 
 ## Repository Structure
 
@@ -123,8 +124,9 @@ git push origin main
 ## Notes for AI Agents
 
 - This repository contains educational content in Portuguese
-- The main creative work is a comic book script in `Documentos/README.txt`
+- The main creative work (comic script) will be defined by group members in `Documentos/README.txt`
 - When modifying documents, preserve the original formatting and intent
 - Respect the CC BY-NC-SA 4.0 license for all contributions
 - No automated testing exists; verify changes manually
 - The `.license.txt` file is intentionally gitignored
+- MkDocs documentation structure is ready for future content insertions

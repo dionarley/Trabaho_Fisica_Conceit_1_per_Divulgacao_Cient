@@ -1,0 +1,51 @@
+site_name: Isaac Newton - Física Conceitual I
+site_url: https://github.com/seu-usuario/Isaac_Newton
+site_description: Trabalho acadêmico sobre Isaac Newton para a disciplina de Física Conceitual I na Unimontes
+site_author: Dionarley Ruas Vieira
+
+repo_url: https://github.com/seu-usuario/Isaac_Newton
+repo_name: GitHub
+
+theme:
+  name: material
+  language: pt
+  palette:
+    - scheme: default
+      toggle_name: Modo Escuro
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle_name: Modo Claro
+      primary: indigo
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+nav:
+  - Início: index.md
+  - Sobre o Projeto: sobre.md
+  - Roteiro do Gibi: roteiro.md
+  - Imagens: imagens.md
+  - Referências: referencias.md
+  - Como Contribuir: contribuindo.md
+  - Licença: licenca.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/seu-usuario/Isaac_Newton

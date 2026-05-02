@@ -17,6 +17,10 @@ Este trabalho aborda a vida e as contribuições científicas de Sir Isaac Newto
 
 O projeto utiliza a linguagem visual da Turma da Mônica para aproximar o conteúdo científico das crianças, facilitando a alfabetização científica no Ensino Fundamental através de conexão emocional com personagens familiares.
 
+### Trabalho em Grupo
+
+O roteiro do gibi será definido pelos demais membros/colegas de curso do grupo responsável por este trabalho. O repositório está preparado para receber as contribuições de todos os integrantes.
+
 ## Estrutura do Repositório
 
 ```
@@ -47,12 +51,15 @@ Isaac_Newton/
 
 ## Roteiro do Gibi
 
-O roteiro apresenta quatro fases da vida de Isaac Newton:
+O roteiro do gibi (história em quadrinhos) será definido e inserido pelos membros do grupo de trabalho.
 
-1. **O Menino Curioso** (Woolsthorpe, ~1650) - Isaac aos 7 anos sob a macieira
-2. **O Estudante em Cambridge** (Cambridge University, ~1665) - Estudos e matemática
-3. **O Grande Cientista** (Woolsthorpe Orchard, ~1666) - A queda da maçã e a gravidade
-4. **O Mestre Idoso** (Londres, ~1720) - O legado com "Principia"
+**Estrutura planejada:** Quatro fases da vida de Isaac Newton:
+1. **O Menino Curioso** (Woolsthorpe, ~1650)
+2. **O Estudante em Cambridge** (Cambridge University, ~1665)
+3. **O Grande Cientista** (Woolsthorpe Orchard, ~1666)
+4. **O Mestre Idoso** (Londres, ~1720)
+
+O roteiro completo será adicionado em `Documentos/README.txt` pelos colaboradores.
 
 ## Referências Bibliográficas
 
