@@ -18,7 +18,7 @@ Você pode contribuir com:
 
 ```bash
 # Fork o repositório no GitHub e depois clone
-git clone https://github.com/seu-usuario/Isaac_Newton.git
+git clone https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient.git
 cd Isaac_Newton
 ```
 

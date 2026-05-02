@@ -33,14 +33,18 @@ Este trabalho apresenta a vida de Newton em formato de **história em quadrinhos
 - **Contexto**: Prática de Ensino ou História da Física
 - **Objetivo**: Divulgação científica lúdica
 
-## Estrutura do Roteiro
+## Estrutura do Roteiro (Ideia Inicial)
 
-O gibi apresenta quatro momentos importantes na vida de Newton:
+As fases da vida de Newton foram utilizadas como **referência inicial** para brainstorm de ideias, mas **não representam o escopo final** do trabalho.
+
+### Ideia Inicial (Rascunho)
 
 1. **O Menino Curioso** (Woolsthorpe, ~1650)
 2. **O Estudante em Cambridge** (Cambridge University, ~1665)
 3. **O Grande Cientista** (Woolsthorpe Orchard, ~1666)
 4. **O Mestre Idoso** (Londres, ~1720)
+
+*O escopo final será definido coletivamente pelos membros do grupo.*
 
 ## Base Gráfica
 

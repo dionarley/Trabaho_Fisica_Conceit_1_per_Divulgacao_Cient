@@ -47,14 +47,18 @@ Esta seção apresenta as imagens utilizadas no projeto, organizadas por fase da
     - Otimize as imagens antes de commitar
     - Mantenha resolução adequada para visualização em dispositivos móveis e desktop
 
-## Estrutura Visual do Gibi
+## Estrutura Visual do Gibi (Ideia Inicial)
 
-O roteiro utiliza quatro fases visuais distintas:
+As fases da vida de Newton foram utilizadas como **referência inicial** para brainstorm visual, mas **não representam o escopo final**.
+
+### Ideia Inicial (Para Brainstorm Visual)
 
 1. **Woolsthorpe, ~1650** - Cores quentes, ambiente rural, maçãs vermelhas
 2. **Cambridge, ~1665** - Ambiente acadêmico, tons sépia, livros e pergaminhos
 3. **Woolsthorpe Orchard, ~1666** - Pôr do sol, macieira frondosa, momento "eureka"
 4. **Londres, ~1720** - Cores sóbrias, ambiente urbano, livros e pergaminhos antigos
+
+*O escopo visual final será definido pelo grupo conforme o formato escolhido.*
 
 ## Créditos das Imagens
 

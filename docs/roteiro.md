@@ -5,29 +5,29 @@
     
     Esta seção será atualizada conforme as contribuições dos integrantes do grupo.
 
-## Estrutura Planejada
+## Estrutura Sugerida (Baseada em Rascunhos Iniciais)
 
-O roteiro apresentará quatro fases da vida de Isaac Newton:
+As fases da vida de Newton foram utilizadas como **referência inicial** para brainstorm de ideias, mas **não representam o escopo final**.
 
-### 1. O Menino Curioso (Woolsthorpe, ~1650)
-- Isaac aos 7 anos sob a macieira
-- Cena: Tarde ensolarada na fazenda
-- Elementos: Maçãs, livro de anotações, casa da fazenda ao fundo
+### Ideia Inicial (Para Brainstorm):
 
-### 2. O Estudante em Cambridge (Cambridge University, ~1665)
-- Newton aos 20 anos
-- Cena: Sala de estudos com livros e instrumentos
-- Elementos: Pena, caderno, arquitetura gótica, telescópio
+1. **O Menino Curioso** (Woolsthorpe, ~1650)
+   - Isaac aos 7 anos sob a macieira
+   - Cena: Tarde ensolarada na fazenda
 
-### 3. O Grande Cientista (Woolsthorpe Orchard, ~1666)
-- Newton aos 25 anos
-- Cena: Sob a macieira, momento da descoberta da gravidade
-- Elementos: Maçã caindo, expressão de surpresa
+2. **O Estudante em Cambridge** (Cambridge University, ~1665)
+   - Newton aos 20 anos
+   - Cena: Sala de estudos com livros
 
-### 4. O Mestre Idoso (Londres, ~1720)
-- Newton aos 78 anos
-- Cena: Escritório em Londres com "Principia"
-- Elementos: Peruca prateada, livros, sorriso caloroso
+3. **O Grande Cientista** (Woolsthorpe Orchard, ~1666)
+   - Newton aos 25 anos
+   - Cena: Sob a macieira, momento da descoberta
+
+4. **O Mestre Idoso** (Londres, ~1720)
+   - Newton aos 78 anos
+   - Cena: Escritório em Londres
+
+*O escopo final será definido coletivamente pelos membros do grupo.*
 
 ## Onde Inserir o Roteiro
 
