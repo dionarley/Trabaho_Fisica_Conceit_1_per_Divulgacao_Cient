@@ -2,6 +2,8 @@
 
 Bem-vindo ao repositório de materiais e pesquisas sobre Isaac Newton, desenvolvido para a disciplina de Física Conceitual I na **Unimontes**.
 
+**Repositório GitHub:** [dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cientifica](https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cientifica)
+
 ## Informações da Disciplina
 
 | Campo | Informação |
