@@ -149,6 +149,14 @@ git push origin main
 - MkDocs documentation is hosted at: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
 - GitHub repository: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
 
+## MkDocs Version Note
+
+- **Currently using:** MkDocs v1.4.8 + MkDocs Material v1.5.5
+- **Version locked in:** `requirements.txt` (prevents auto-upgrade)
+- **v2.0 warning:** Backward incompatible changes coming (no migration path)
+- **Recommendation:** Stay on v1.x (works perfectly for this project)
+- **If upgrading issues:** Just change `theme.name:` in `mkdocs.yml` to another theme
+
 ## Suggested MkDocs Pages for Undefined Scope
 
 As the project scope is being defined, consider these documentation pages:
