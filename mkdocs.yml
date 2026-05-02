@@ -27,15 +27,18 @@ theme:
 
 nav:
   - Início: index.md
-  - Sobre o Projeto: sobre.md
-  - Proposta Inicial: proposta.md
-  - Tutorial de Roteiro: tutorial-roteiro.md
-  - Tutorial de Ilustração: tutorial-ilustracao.md
-  - Orçamento Planilha: orcamento-planilha.md
-  - Rascunhos e Ideias: rascunhos.md
-  - Referências: referencias.md
-  - Cronograma: cronograma.md
-  - Recursos: recursos.md
+  - Sobre o Projeto:
+      - Sobre: sobre.md
+      - Proposta: proposta.md
+  - Tutoriais:
+      - Roteiro: tutorial-roteiro.md
+      - Ilustração: tutorial-ilustracao.md
+      - Orçamento: orcamento-planilha.md
+  - Documentação:
+      - Rascunhos: rascunhos.md
+      - Referências: referencias.md
+      - Cronograma: cronograma.md
+      - Recursos: recursos.md
   - Como Contribuir: contribuindo.md
   - Licença: licenca.md
 
