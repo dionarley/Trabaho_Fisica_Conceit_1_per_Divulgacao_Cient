@@ -38,6 +38,17 @@ Este trabalho aborda as contribuições científicas de **Sir Isaac Newton** (16
 !!! info "Colaboração"
     O formato e conteúdo final serão definidos pelos demais membros/colegas de curso do grupo responsável por este trabalho. Este repositório está preparado para receber as contribuições de todos os integrantes.
 
+#### Membros do Grupo
+
+| # | Nome | Função |
+|---|------|--------|
+| 1 | Amanda | Administradora do WhatsApp |
+| 2 | Sara | Coordenadora |
+| 3 | Bernado | A definir |
+| 4 | Miguel | A definir |
+| 5 | Dionarley Ruas Vieira | TI, Documentos, Ilustração |
+| 6 | ? | A definir (WhatsApp final 6144) |
+
 ## Estrutura do Repositório
 
 ```

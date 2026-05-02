@@ -43,11 +43,14 @@
 !!! info "Cadastro do Grupo"
     Os membros do grupo devem preencher o formulário Google e seus dados estarão em `planilhas/membros-grupo.csv`.
 
-| Nome | RAM | E-mail | WhatsApp |
-|------|-----|--------|----------|
-|      |     |        |          |
-|      |     |        |          |
-|      |     |        |          |
+| Nome | RAM | E-mail | WhatsApp | Função |
+|------|-----|--------|----------|--------|
+| Amanda | - | - | - | Administradora do WhatsApp |
+| Sara | - | - | - | Coordenadora |
+| Bernado | - | - | - | A definir |
+| Miguel | - | - | - | A definir |
+| Dionarley Ruas Vieira | - | - | - | TI, Documentos, Ilustração |
+| ? | - | - | ? (final 6144) | A definir |
 
 ## Marcos Importantes
 
