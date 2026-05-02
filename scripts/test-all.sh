@@ -28,7 +28,7 @@ test_failed() {
 }
 
 # Test 1: Check scripts exist and are executable
-echo "[1/6] Checking script files..."
+echo "[1/7] Checking script files..."
 SCRIPTS=(
     "scripts/build-deploy.sh"
     "scripts/check-links.sh"
@@ -36,6 +36,7 @@ SCRIPTS=(
     "scripts/update-members.sh"
     "scripts/setup-env.sh"
     "scripts/backup.sh"
+    "scripts/generate-pdf.sh"
 )
 
 for script in "${SCRIPTS[@]}"; do
@@ -48,7 +49,7 @@ done
 echo ""
 
 # Test 2: Syntax check (bash -n)
-echo "[2/6] Syntax checking scripts..."
+echo "[2/7] Syntax checking scripts..."
 for script in scripts/*.sh; do
     if bash -n "$script" 2>/dev/null; then
         test_passed "$(basename "$script") has valid syntax"
@@ -59,7 +60,7 @@ done
 echo ""
 
 # Test 3: Test validate-csv.sh
-echo "[3/6] Testing validate-csv.sh..."
+echo "[3/7] Testing validate-csv.sh..."
 if [ -f "planilhas/membros-grupo.csv" ]; then
     OUTPUT=$(bash scripts/validate-csv.sh 2>&1)
     if echo "$OUTPUT" | grep -q "All CSV files are valid"; then
@@ -74,7 +75,7 @@ fi
 echo ""
 
 # Test 4: Test check-links.sh (dry run - just check it runs)
-echo "[4/6] Testing check-links.sh..."
+echo "[4/7] Testing check-links.sh..."
 OUTPUT=$(bash scripts/check-links.sh 2>&1)
 if echo "$OUTPUT" | grep -q "Checking URLs"; then
     test_passed "check-links.sh runs successfully"
@@ -84,7 +85,7 @@ fi
 echo ""
 
 # Test 5: Test setup-env.sh (check it runs, don't actually install)
-echo "[5/6] Testing setup-env.sh (simulated)..."
+echo "[5/7] Testing setup-env.sh (simulated)..."
 if bash -n scripts/setup-env.sh; then
     test_passed "setup-env.sh syntax is valid"
 else
@@ -93,7 +94,7 @@ fi
 echo ""
 
 # Test 6: Test backup.sh (create a test backup)
-echo "[6/6] Testing backup.sh..."
+echo "[6/7] Testing backup.sh..."
 mkdir -p backups
 TEST_BACKUP="test-backup-$(date +%s)"
 if bash scripts/backup.sh "$TEST_BACKUP" 2>&1 | grep -q "Backup created"; then
@@ -102,6 +103,15 @@ if bash scripts/backup.sh "$TEST_BACKUP" 2>&1 | grep -q "Backup created"; then
     rm -f "backups/${TEST_BACKUP}.zip"
 else
     test_failed "backup.sh failed"
+fi
+echo ""
+
+# Test 7: Test generate-pdf.sh (syntax check only - don't generate)
+echo "[7/7] Testing generate-pdf.sh (syntax)..."
+if bash -n scripts/generate-pdf.sh; then
+    test_passed "generate-pdf.sh has valid syntax"
+else
+    test_failed "generate-pdf.sh has syntax errors"
 fi
 echo ""
 
