@@ -16,6 +16,10 @@
 - [ ] Consultar materiais no repositório (`Referencias_PDFs/`)
 - [ ] Pesquisar fontes complementares
 - [ ] Organizar notas de pesquisa
+- [ ] Pesquisar 3 gráficas na sua cidade
+- [ ] Solicitar orçamentos com especificações exatas
+- [ ] Definir: Fazer em casa vs. Terceirizar
+- [ ] Aprovação de orçamento pelo grupo
 
 ### 3. Desenvolvimento (Semanas 4-6)
 - [ ] Criar rascunho inicial
