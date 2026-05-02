@@ -165,7 +165,7 @@ O **Manuskript** é um software livre especificamente feito para escrita de rote
 - Gratuito e open source
 
 ### Como usar para o gibi do Newton:
-1. Baixe em: [theologeek.fr/manuskript](https://www.theologeek.fr/manuskript/)
+1. Baixe em: [theologeek.fr/manuskript](https://www.theologeek.ch/manuskript)
 2. Crie um novo projeto: "Isaac Newton - Gibi"
 3. Estruture em:
    - **Ato 1:** Infância de Newton

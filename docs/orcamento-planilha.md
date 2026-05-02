@@ -151,8 +151,8 @@
 
 ## 7. Links Úteis
 
-- [Calculadora de Custo de Impressão](https://www.calculadoraonline.com.br/impressao)
-- [Tabela de Preços Gráfica Papiro](https://www.graficapapiro.com.br/)
+- [Calculadora de Custo de Impressão](https://www.calculadoraonline.com.br)
+- [Tabela de Preços Gráfica Papiro](https://www.graficapapiro.com.br)
 - [Manual da Impressora - Custo por Página](https://manualdaimpressora.com.br/)
 - [Google Sheets - Criar Planilha](https://docs.google.com/spreadsheets/)
 

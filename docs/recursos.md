@@ -54,7 +54,7 @@ Esta página contém links, ferramentas e materiais úteis para o desenvolviment
 - [BibTeX Generator](https://www.bibtex.com/)
 
 ### Links para as Ferramentas
-- [Manuskript Official Site](https://www.theologeek.fr/manuskript/) - Roteiro e story
+- [Manuskript Official Site](https://www.theologeek.ch/manuskript) - Roteiro e story
 - [Scribus Official Site](https://www.scribus.net/) - Desktop Publishing (PUB)
 
 ## Templates e Modelos

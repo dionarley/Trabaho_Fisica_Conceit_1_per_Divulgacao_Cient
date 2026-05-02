@@ -32,8 +32,9 @@ echo ""
 for file in $MD_FILES; do
     echo "Checking: $file"
     
-    # Extract URLs (http/https)
-    URLS=$(grep -oE 'https?://[^)]+' "$file" 2>/dev/null || true)
+    # Extract URLs (http/https) - handle BibTeX format and regular markdown
+    # This extracts URLs stopping at ), }, whitespace, or end of line
+    URLS=$(grep -oE 'https?://[^) }\]+' "$file" 2>/dev/null | sed 's/[[:punct:]]*$//' || true)
     
     if [ -z "$URLS" ]; then
         echo "  ✓ No URLs found"
@@ -43,6 +44,12 @@ for file in $MD_FILES; do
     while IFS= read -r url; do
         # Skip empty
         [ -z "$url" ] && continue
+        
+        # Skip localhost URLs (only valid when mkdocs serve is running)
+        [[ "$url" =~ localhost ]] && echo "  ⚠ SKIP (localhost): $url" && continue
+        
+        # Skip localhost URLs (only valid when server is running)
+        [[ "$url" =~ localhost ]] && echo "  ⚠ SKIP (localhost): $url" && continue
         
         # Check URL
         HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 5 "$url" 2>/dev/null || echo "000")
