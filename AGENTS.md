@@ -1,0 +1,130 @@
+# AGENTS.md - Isaac Newton Physics Work Repository
+
+## Repository Overview
+
+This repository contains academic work for the Conceptual Physics I course at Unimontes.
+The content focuses on Isaac Newton's life and scientific contributions, presented in an
+educational comic book format inspired by Mauricio de Sousa's style.
+
+**Professor:** Vitor Monteiro
+**Schedule:** Tue, Thu 19:10 - 20:50
+
+## Repository Structure
+
+```
+Isaac_Newton/
+├── Documentos/           # Text documents, scripts, and notes
+│   ├── README.txt       # Comic book script and project notes
+│   └── .license.txt     # License file (gitignored)
+├── Imagens/             # Images of Isaac Newton (various ages)
+├── Referencias_PDFs/    # Academic references and papers
+├── LICENSE              # CC BY-NC-SA 4.0 License
+├── .gitignore          # Ignores .license.txt
+└── Isaac_Newton.zip    # Archive of materials
+```
+
+## Build/Lint/Test Commands
+
+This is a documentation and research repository with no build system, linter, or test framework.
+If code is added in the future, document the commands here:
+
+```bash
+# No current build system
+# If adding scripts (Python, etc.), consider:
+#   python -m pytest tests/              # Run all tests
+#   python -m pytest tests/test_file.py  # Run single test file
+#   python -m pytest tests/test_file.py::test_name  # Run single test
+#   python -m flake8 .                   # Lint Python code
+#   python -m black .                    # Format Python code
+```
+
+## Code Style Guidelines
+
+### General Principles
+
+- Write clear, self-documenting code when adding scripts
+- Prefer readability over cleverness
+- Use consistent formatting throughout the project
+
+### Python (if adding scripts)
+
+```python
+# Imports: standard library first, then third-party, then local
+import os
+import sys
+from pathlib import Path
+
+import numpy as np  # third-party example
+
+# Naming conventions
+variable_name = "snake_case"
+CONSTANT_NAME = "UPPER_SNAKE_CASE"
+function_name = "snake_case"
+ClassName = "PascalCase"
+_file_name = "snake_case.py"  # module names
+
+# Type hints for function signatures
+def calculate_gravity(mass: float, acceleration: float) -> float:
+    return mass * acceleration
+
+# Error handling
+try:
+    result = risky_operation()
+except SpecificError as e:
+    logger.error(f"Operation failed: {e}")
+    raise
+```
+
+### Documentation Files
+
+- Use Markdown for documentation files (README.md, etc.)
+- Text files (.txt) should use UTF-8 encoding
+- Keep line lengths reasonable (80-120 characters)
+- Use Portuguese for academic content (course requirement)
+
+### Images
+
+- Supported formats: PNG, JPG, JPEG, WEBP
+- Name files descriptively: `isaac-newton-young.jpg`, `in1-45-65.jpg`
+- Optimize images before committing when possible
+
+### PDF References
+
+- Store academic papers in `Referencias_PDFs/`
+- Use descriptive names: `9 - Isaac Newton.pdf`, `monografia-Durval-Araujo-de-Mendonça.pdf`
+- Ensure you have rights to distribute referenced materials
+
+## Licensing
+
+This project is licensed under **CC BY-NC-SA 4.0** (Creative Commons Attribution-NonCommercial-ShareAlike).
+
+When contributing:
+- Attribute original work appropriately
+- Do not use content for commercial purposes
+- Share derivative works under the same license
+- See LICENSE file for full terms: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## Git Workflow
+
+```bash
+# Check status
+git status
+
+# Stage changes
+git add <file>
+
+# Commit with descriptive message (Portuguese or English)
+git commit -m "Add: description of changes"
+
+# Push to remote
+git push origin main
+```
+
+## Notes for AI Agents
+
+- This repository contains educational content in Portuguese
+- The main creative work is a comic book script in `Documentos/README.txt`
+- When modifying documents, preserve the original formatting and intent
+- Respect the CC BY-NC-SA 4.0 license for all contributions
+- No automated testing exists; verify changes manually
+- The `.license.txt` file is intentionally gitignored
