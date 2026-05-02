@@ -9,8 +9,8 @@ The content focuses on Isaac Newton's scientific contributions for educational p
 **Schedule:** Tue, Thu 19:10 - 20:50
 **Group Work:** The scope and format will be defined by group members/colleagues
 **Status:** Scope not yet fully defined - initial references included Newton's life phases
-**GitHub Repository:** https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
-**GitHub Pages:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+**GitHub Repository:** https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient
+**GitHub Pages:** https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
 ## Repository Structure
 
@@ -146,8 +146,8 @@ git push origin main
 - No automated testing exists; verify changes manually
 - The `.license.txt` file is intentionally gitignored
 - MkDocs documentation structure is ready for future content as scope defines
-- MkDocs documentation is hosted at: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
-- GitHub repository: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+- MkDocs documentation is hosted at: https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
+- GitHub repository: https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient
 
 ## MkDocs Version Note
 

@@ -2,9 +2,9 @@
 
 Bem-vindo ao repositório de materiais e pesquisas sobre Isaac Newton, desenvolvido para a disciplina de Física Conceitual I na **Unimontes**.
 
-**Repositório GitHub:** https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+**Repositório GitHub:** https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient
 
-**Site GitHub Pages:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+**Site GitHub Pages:** https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
 ## Informações da Disciplina
 
@@ -89,7 +89,7 @@ Isaac_Newton/
 
 ### Opção 1: Baixar sem usar Git (Mais Simples)
 
-1. Acesse: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+1. Acesse: https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient
 2. Clique no botão verde **"Code"** (Código)
 3. Clique em **"Download ZIP"** (Baixar ZIP)
 4. Extraia o arquivo ZIP no seu computador
@@ -99,10 +99,10 @@ Isaac_Newton/
 
 ```bash
 # Baixar o repositório (clone)
-git clone https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient.git
+git clone https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient.git
 
 # Entrar na pasta
-cd Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/Isaac_Newton
+cd Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/Isaac_Newton
 ```
 
 ### Como Usar os Arquivos
@@ -127,7 +127,7 @@ cd Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/Isaac_Newton
     - Se não tiver certeza, faça uma cópia antes de alterar
 
 !!! info "Não precisa baixar"
-    O site já está online em: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+    O site já está online em: https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
 ## Licença
 

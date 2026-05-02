@@ -62,7 +62,7 @@ Ou em formato BibTeX:
   title = {Isaac Newton - Trabalho de Física Conceitual I},
   year = {2026},
   publisher = {Unimontes},
-  howpublished = {\url{https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+  howpublished = {\url{https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient
   license = {CC BY-NC-SA 4.0}
 }
 ```

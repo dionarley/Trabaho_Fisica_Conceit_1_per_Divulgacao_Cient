@@ -114,7 +114,7 @@ git log --all --pretty=format:"%ad" --date=short | sort | uniq -c
 ## Curiosidades Interessantes
 
 ### 1. O Nome do Repositório
-O repositório tem um nome um pouco diferente: `Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient` (com "Trabaho” em vez de “Trabalho”). Isso foi mantido para preservar a URL original do GitHub!
+O repositório foi renomeado de `Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient` (com erro de grafia) para **`Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient`** (correto). Todas as URLs e documentos foram atualizados!
 
 ### 2. PDF Único vs. Múltiplos
 Inicialmente tentamos usar o `mkdocs-pdf-export-plugin`, mas ele criava um PDF **para cada página**. Mudamos para `mkdocs-with-pdf` que gera um **PDF único** com todo o conteúdo.
@@ -129,8 +129,8 @@ O projeto possui **9 scripts de automação**:
 
 ### 4. Site GitHub Pages
 O site está hospedado gratuitamente no GitHub Pages:
-- **URL:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
-- **PDF:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/documento-isaac-newton.pdf
+- **URL:** https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
+- **PDF:** https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/documento-isaac-newton.pdf
 - **Atualização:** Automática via `mkdocs gh-deploy`
 
 ### 5. Licença CC BY-NC-SA 4.0

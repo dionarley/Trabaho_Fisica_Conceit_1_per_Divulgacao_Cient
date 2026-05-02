@@ -2,8 +2,8 @@
 
 Repositório destinado ao armazenamento de materiais e pesquisas para o trabalho sobre Isaac Newton, desenvolvido para a disciplina de Física Conceitual I na Unimontes.
 
-**Repositório GitHub:** [dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cientifica](https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient)  
-**Site GitHub Pages:** [https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/)
+**Repositório GitHub:** [dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cientifica](https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient)  
+**Site GitHub Pages:** [https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/)
 
 ## Informações da Disciplina
 
@@ -96,41 +96,41 @@ Isaac_Newton/
 ## Documentação Online
 
 A documentação completa está disponível no GitHub Pages:  
-🔗 **https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/**
+🔗 **https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/**
 
 ### Download em PDF
 
 O site oferece download da documentação completa em PDF (gerado automaticamente):
 
-📄 **[Baixar Documento Completo (PDF)](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/documento-isaac-newton.pdf)**
+📄 **[Baixar Documento Completo (PDF)](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/documento-isaac-newton.pdf)**
 
 O PDF é gerado via plugin `mkdocs-with-pdf` (controlado por `ENABLE_PDF_EXPORT=1`).
 
 ### Páginas Disponíveis (Menu Aninhado)
 
 **1. Início**
-- [Início](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/) - Visão geral, membros e download PDF
+- [Início](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/) - Visão geral, membros e download PDF
 
 **2. Sobre o Projeto**
-- [Sobre](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/sobre/) - Detalhes e objetivos
-- [Proposta](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/proposta/) - Ideias e rascunhos iniciais
+- [Sobre](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/sobre/) - Detalhes e objetivos
+- [Proposta](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/proposta/) - Ideias e rascunhos iniciais
 
 **3. Tutoriais**
-- [Roteiro](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/tutorial-roteiro/) - Como criar enredo e roteiro
-- [Ilustração](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/tutorial-ilustracao/) - Como ilustrar quadrinhos
-- [Orçamento Planilha](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/orcamento-planilha/) - Custos editável (qualquer cidade)
+- [Roteiro](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/tutorial-roteiro/) - Como criar enredo e roteiro
+- [Ilustração](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/tutorial-ilustracao/) - Como ilustrar quadrinhos
+- [Orçamento Planilha](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/orcamento-planilha/) - Custos editável (qualquer cidade)
 
 **4. Documentação**
-- [Rascunhos](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/rascunhos/) - Ideias e brainstorm
-- [Referências](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/referencias/) - Bibliografia
-- [Cronograma](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/cronograma/) - Prazos e marcos (com membros)
-- [Recursos](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/recursos/) - Ferramentas e materiais
+- [Rascunhos](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/rascunhos/) - Ideias e brainstorm
+- [Referências](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/referencias/) - Bibliografia
+- [Cronograma](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/cronograma/) - Prazos e marcos (com membros)
+- [Recursos](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/recursos/) - Ferramentas e materiais
 
 **5. Como Contribuir**
-- [Contribuir](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/contribuindo/) - Guia para colaboradores (com link do formulário)
+- [Contribuir](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/contribuindo/) - Guia para colaboradores (com link do formulário)
 
 **6. Licença**
-- [Licença](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/licenca/) - CC BY-NC-SA 4.0
+- [Licença](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/licenca/) - CC BY-NC-SA 4.0
 
 ## Formulário de Cadastro
 
@@ -177,7 +177,7 @@ Veja o arquivo [LICENSE](LICENSE) para mais detalhes ou acesse: https://creative
 
 ### Opção 1: Baixar sem usar Git (Mais Simples)
 
-1. Acesse: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+1. Acesse: https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient
 2. Clique no botão verde **"Code"** (Código)
 3. Clique em **"Download ZIP"** (Baixar ZIP)
 4. Extraia o arquivo ZIP no seu computador
@@ -187,10 +187,10 @@ Veja o arquivo [LICENSE](LICENSE) para mais detalhes ou acesse: https://creative
 
 ```bash
 # Baixar o repositório (clone)
-git clone https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient.git
+git clone https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient.git
 
 # Entrar na pasta
-cd Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/Isaac_Newton
+cd Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/Isaac_Newton
 ```
 
 ### Como Usar os Arquivos
@@ -238,10 +238,10 @@ mkdocs gh-deploy --force
     - **Versão atual:** mkdocs v1.4.8 + mkdocs-material v1.5.5 (travadas em `requirements.txt`)
     - **Plugin PDF:** mkdocs-with-pdf v0.9.3 (gera PDF único)
     - **v2.0:** Aviso de mudanças incompatíveis (futuro) - ficaremos na v1.x
-    - **Site online:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+    - **Site online:** https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
 !!! info "Não precisa fazer isso"
-    O site já está online em: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+    O site já está online em: https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
 ## Scripts de Automação
 

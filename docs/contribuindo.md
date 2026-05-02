@@ -26,7 +26,7 @@ Você pode contribuir com:
 
 ```bash
 # Fork o repositório no GitHub e depois clone
-git clone https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient.git
+git clone https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient.git
 cd Isaac_Newton
 ```
 
@@ -93,7 +93,7 @@ Ao contribuir, você concorda que suas contribuições serão licenciadas sob a 
 
 ## Dúvidas?
 
-Se tiver dúvidas sobre como contribuir, abra uma [issue](https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/issues) no repositório.
+Se tiver dúvidas sobre como contribuir, abra uma [issue](https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/issues) no repositório.
 
 !!! tip "Lembre-se"
     Este é um projeto educacional sem fins lucrativos. Todas as contribuições devem respeitar a licença CC BY-NC-SA 4.0.

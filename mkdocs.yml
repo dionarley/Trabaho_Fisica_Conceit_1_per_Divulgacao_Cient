@@ -1,9 +1,9 @@
 site_name: Isaac Newton - Física Conceitual I
-site_url: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+site_url: https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/
 site_description: Trabalho acadêmico sobre Isaac Newton para a disciplina de Física Conceitual I na Unimontes
 site_author: Amanda, Sara, Bernado, Miguel, Dionarley Ruas Vieira (+1 membro)
 
-repo_url: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+repo_url: https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient
 repo_name: Trabalho Isaac Newton - Cartoon
 
 theme:
@@ -64,4 +64,4 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cientifica
+      link: https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cientifica
