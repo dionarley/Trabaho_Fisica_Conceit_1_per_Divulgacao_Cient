@@ -1,0 +1,122 @@
+#!/bin/bash
+# Test all automation scripts
+# Usage: ./scripts/test-all.sh
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+cd "$PROJECT_ROOT"
+
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "  Testing Automation Scripts"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+PASS=0
+FAIL=0
+
+test_passed() {
+    echo "  ✓ $1"
+    PASS=$((PASS + 1))
+}
+
+test_failed() {
+    echo "  ✗ $1"
+    FAIL=$((FAIL + 1))
+}
+
+# Test 1: Check scripts exist and are executable
+echo "[1/6] Checking script files..."
+SCRIPTS=(
+    "scripts/build-deploy.sh"
+    "scripts/check-links.sh"
+    "scripts/validate-csv.sh"
+    "scripts/update-members.sh"
+    "scripts/setup-env.sh"
+    "scripts/backup.sh"
+)
+
+for script in "${SCRIPTS[@]}"; do
+    if [ -f "$script" ] && [ -x "$script" ]; then
+        test_passed "$script exists and is executable"
+    else
+        test_failed "$script missing or not executable"
+    fi
+done
+echo ""
+
+# Test 2: Syntax check (bash -n)
+echo "[2/6] Syntax checking scripts..."
+for script in scripts/*.sh; do
+    if bash -n "$script" 2>/dev/null; then
+        test_passed "$(basename "$script") has valid syntax"
+    else
+        test_failed "$(basename "$script") has syntax errors"
+    fi
+done
+echo ""
+
+# Test 3: Test validate-csv.sh
+echo "[3/6] Testing validate-csv.sh..."
+if [ -f "planilhas/membros-grupo.csv" ]; then
+    OUTPUT=$(bash scripts/validate-csv.sh 2>&1)
+    if echo "$OUTPUT" | grep -q "All CSV files are valid"; then
+        test_passed "validate-csv.sh works correctly"
+    else
+        test_failed "validate-csv.sh produced unexpected output"
+        echo "  Output: $OUTPUT"
+    fi
+else
+    test_failed "CSV files not found for testing"
+fi
+echo ""
+
+# Test 4: Test check-links.sh (dry run - just check it runs)
+echo "[4/6] Testing check-links.sh..."
+OUTPUT=$(bash scripts/check-links.sh 2>&1)
+if echo "$OUTPUT" | grep -q "Checking URLs"; then
+    test_passed "check-links.sh runs successfully"
+else
+    test_failed "check-links.sh failed to run"
+fi
+echo ""
+
+# Test 5: Test setup-env.sh (check it runs, don't actually install)
+echo "[5/6] Testing setup-env.sh (simulated)..."
+if bash -n scripts/setup-env.sh; then
+    test_passed "setup-env.sh syntax is valid"
+else
+    test_failed "setup-env.sh has issues"
+fi
+echo ""
+
+# Test 6: Test backup.sh (create a test backup)
+echo "[6/6] Testing backup.sh..."
+mkdir -p backups
+TEST_BACKUP="test-backup-$(date +%s)"
+if bash scripts/backup.sh "$TEST_BACKUP" 2>&1 | grep -q "Backup created"; then
+    test_passed "backup.sh creates backups successfully"
+    # Clean up test backup
+    rm -f "backups/${TEST_BACKUP}.zip"
+else
+    test_failed "backup.sh failed"
+fi
+echo ""
+
+# Summary
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "  Test Results:"
+echo "  ✓ Passed: $PASS"
+echo "  ✗ Failed: $FAIL"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+
+if [ $FAIL -eq 0 ]; then
+    echo "✓ All tests passed! Ready to deploy."
+    exit 0
+else
+    echo "✗ Some tests failed. Fix issues before deploying."
+    exit 1
+fi
