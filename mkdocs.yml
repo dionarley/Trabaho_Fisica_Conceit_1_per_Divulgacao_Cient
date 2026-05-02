@@ -41,6 +41,7 @@ nav:
       - Recursos: recursos.md
   - Como Contribuir: contribuindo.md
   - Licença: licenca.md
+  - Curiosidades: curiosidades.md
 
 markdown_extensions:
   - admonition
