@@ -2,6 +2,9 @@
 
 Repositório destinado ao armazenamento de materiais e pesquisas para o trabalho sobre Isaac Newton, desenvolvido para a disciplina de Física Conceitual I na Unimontes.
 
+**Repositório GitHub:** [dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cientifica](https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient)  
+**Site GitHub Pages:** [https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/)
+
 ## Informações da Disciplina
 
 - **Disciplina:** Física Conceitual I
@@ -11,55 +14,59 @@ Repositório destinado ao armazenamento de materiais e pesquisas para o trabalho
 
 ## Sobre o Projeto
 
-Este trabalho aborda a vida e as contribuições científicas de Sir Isaac Newton (1642-1727), apresentado em formato de história em quadrinhos educativa inspirada no estilo de Mauricio de Sousa (Turma da Mônica).
+Este trabalho aborda as contribuições científicas de Sir Isaac Newton (1642-1727) para fins educacionais.
 
-### Conceito
+### Status do Projeto
 
-O projeto utiliza a linguagem visual da Turma da Mônica para aproximar o conteúdo científico das crianças, facilitando a alfabetização científica no Ensino Fundamental através de conexão emocional com personagens familiares.
+!!! info "Escopo em Definição"
+    O escopo final deste trabalho está sendo definido pelos membros do grupo.
+    As referências iniciais sobre as fases da vida de Newton foram apenas ideias preliminares para brainstorm.
 
 ### Trabalho em Grupo
 
-O roteiro do gibi será definido pelos demais membros/colegas de curso do grupo responsável por este trabalho. O repositório está preparado para receber as contribuições de todos os integrantes.
+O formato e conteúdo final serão definidos pelos demais membros/colegas de curso do grupo responsável por este trabalho. O repositório está preparado para receber as contribuições de todos os integrantes.
 
 ## Estrutura do Repositório
 
 ```
 Isaac_Newton/
-├── Documentos/
-│   ├── README.txt                           # Roteiro do gibi e notas do projeto
-│   └── esbocos_do_trabalho_inicio_discursoes.txt
-├── Imagens/
-│   ├── IN0-40-60.jpg                       # Newton jovem (~7 anos)
-│   ├── IN1-45-65.jpg                       # Newton estudante (~20 anos)
-│   ├── IN3-Idade-desconh.jpg               # Newton idoso
-│   ├── isaac-newton.jpg
-│   ├── Isaac-Newton.jpg
-│   ├── sir-isaac-newton_172843.jpg
-│   ├── Isaac-Newton-previu-o-fim-do-mundo.webp
-│   ├── images.jpeg
-│   ├── Imagem colada.png
-│   └── ass_IN.png                          # Assinatura de Newton
-├── Referencias_PDFs/
-│   ├── 9 - Isaac Newton.pdf
-│   ├── 77_biografia.pdf
-│   ├── monografia-Durval-Araujo-de-Mendonça.pdf
-│   ├── Isaac Newton PDF.pdf
-│   └── Isaac Newton.pdf
-├── LICENSE                                  # CC BY-NC-SA 4.0
-└── .gitignore
+├── Documentos/           # Textos, rascunhos e notas do projeto
+│   ├── README.txt       # Roteiro e notas (a definir pelo grupo)
+│   └── .license.txt     # Arquivo de licença (gitignored)
+├── Imagens/             # Imagens de Isaac Newton (várias idades)
+├── Referencias_PDFs/    # Referências acadêmicas e artigos
+├── docs/                # Documentação MkDocs
+│   ├── index.md         # Página inicial
+│   ├── sobre.md         # Sobre o projeto
+│   ├── proposta.md      # Proposta inicial (rascunho)
+│   ├── rascunhos.md     # Ideias e brainstorm
+│   ├── referencias.md   # Referências bibliográficas
+│   ├── cronograma.md    # Cronograma do grupo
+│   ├── recursos.md      # Recursos e materiais
+│   ├── contribuindo.md  # Guia de contribuição
+│   └── licenca.md      # Detalhes da licença
+├── mkdocs.yml          # Configuração do MkDocs
+├── LICENSE              # CC BY-NC-SA 4.0
+├── README.md           # Este arquivo
+└── .gitignore          # Ignora .license.txt
 ```
 
-## Roteiro do Gibi
+## Documentação Online
 
-O roteiro do gibi (história em quadrinhos) será definido e inserido pelos membros do grupo de trabalho.
+A documentação completa está disponível no GitHub Pages:  
+🔗 **https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/**
 
-**Estrutura planejada:** Quatro fases da vida de Isaac Newton:
-1. **O Menino Curioso** (Woolsthorpe, ~1650)
-2. **O Estudante em Cambridge** (Cambridge University, ~1665)
-3. **O Grande Cientista** (Woolsthorpe Orchard, ~1666)
-4. **O Mestre Idoso** (Londres, ~1720)
+### Páginas Disponíveis
 
-O roteiro completo será adicionado em `Documentos/README.txt` pelos colaboradores.
+- **[Início](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/)** - Visão geral do projeto
+- **[Sobre o Projeto](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/sobre/)** - Detalhes e objetivos
+- **[Proposta Inicial](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/proposta/)** - Ideias e rascunhos iniciais
+- **[Rascunhos e Ideias](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/rascunhos/)** - Brainstorm do grupo
+- **[Referências](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/referencias/)** - Bibliografia
+- **[Cronograma](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/cronograma/)** - Prazos e marcos
+- **[Recursos](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/recursos/)** - Ferramentas e materiais
+- **[Como Contribuir](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/contribuindo/)** - Guia para colaboradores
+- **[Licença](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/licenca/)** - CC BY-NC-SA 4.0
 
 ## Referências Bibliográficas
 
@@ -79,8 +86,18 @@ Este trabalho está licenciado sob a **Creative Commons Attribution-NonCommercia
 
 Veja o arquivo [LICENSE](LICENSE) para mais detalhes ou acesse: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-## Considerações Finais
+## Como Executar a Documentação Localmente
 
-> "Ilustrações e roteiro desenvolvidos como recurso didático, inspirados na estética de Mauricio de Sousa para fins de divulgação científica."
+```bash
+# Instalar dependências
+pip install mkdocs mkdocs-material
 
-Este material foi desenvolvido para Prática de Ensino ou História da Física, visando criar conexão emocional e facilitar a alfabetização científica de alunos do Ensino Fundamental.
+# Servir localmente (acessar http://localhost:8000)
+mkdocs serve
+
+# Gerar site estático
+mkdocs build
+
+# Deploy para GitHub Pages
+mkdocs gh-deploy
+```
