@@ -71,7 +71,7 @@ Ou em formato BibTeX:
 
 - [Leia a licença completa](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 - [Resumo legível por humanos](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- [Creative Commons Brasil](https://creativecommons.org.br/)
+- [Creative Commons Brasil](https://br.creativecommons.org/)
 
 !!! info "Sobre a Licença"
     Esta licença é ideal para trabalhos acadêmicos e educacionais, permitindo que outros compartilhem e adaptem o trabalho enquanto garantem que o autor original receba crédito e que o trabalho não seja usado comercialmente.
