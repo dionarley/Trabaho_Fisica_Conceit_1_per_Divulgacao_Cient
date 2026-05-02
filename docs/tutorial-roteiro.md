@@ -154,11 +154,34 @@ Veja como aplicar a estrutura no `Documentos/README.txt`:
     
     **Painel 3:** ___________________
 
+## Usando o Manuskript para Roteiro
+
+O **Manuskript** é um software livre especificamente feito para escrita de roteiros, novels e histórias em quadrinhos.
+
+### Por que usar?
+- Organização por capítulos e cenas
+- Ferramentas de storyboard visual
+- Exportação para PDF, DOCX, ODT
+- Gratuito e open source
+
+### Como usar para o gibi do Newton:
+1. Baixe em: [theologeek.fr/manuskript](https://www.theologeek.fr/manuskript/)
+2. Crie um novo projeto: "Isaac Newton - Gibi"
+3. Estruture em:
+   - **Ato 1:** Infância de Newton
+   - **Ato 2:** Descobertas científicas
+   - **Ato 3:** Legado educacional
+4. Use a visão "Storyboard" para visualizar os quadrinhos
+5. Exporte o roteiro final como PDF
+
+!!! tip "Dica"
+    O Manuskript permite arrastar e soltar cenas, facilitando reoganização do enredo.
+
 ## Próximos Passos
 
 1. O grupo deve se reunir e escolher o enredo final
 2. Dividir os painéis entre os membros
-3. Cada membro escreve seu roteiro usando o template
+3. Cada membro escreve seu roteiro usando o template (ou Manuskript)
 4. Reunir tudo no arquivo `Documentos/README.txt`
 5. Revisar e ajustar coletivamente
 

@@ -24,11 +24,13 @@ Esta página contém links, ferramentas e materiais úteis para o desenvolviment
 - **Markdown**: Formatação leve para documentação (usado neste MkDocs)
 - **LaTeX**: Para equações e fórmulas físicas
 - **Google Docs / Word**: Para colaboração em tempo real
+- **Manuskript**: Software livre para roteiros e novels (ideal para roteiro de gibi)
 
 ### Imagens e Gráficos
 - **Canva**: Design gráfico simplificado
 - **Inkscape**: Edição de vetores (open source)
 - **GIMP**: Edição de imagens (open source)
+- **Scribus**: Editor de publicação (desktop publishing) para layout final do gibi
 
 ### Colaboração
 - **GitHub**: Controle de versão (já em uso)
@@ -50,6 +52,10 @@ Esta página contém links, ferramentas e materiais úteis para o desenvolviment
 - [Google Scholar](https://scholar.google.com/)
 - [Zotero](https://www.zotero.org/) - Gerenciador de referências
 - [BibTeX Generator](https://www.bibtex.com/)
+
+### Links para as Ferramentas
+- [Manuskript Official Site](https://www.theologeek.fr/manuskript/) - Roteiro e story
+- [Scribus Official Site](https://www.scribus.net/) - Desktop Publishing (PUB)
 
 ## Templates e Modelos
 

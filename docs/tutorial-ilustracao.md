@@ -249,3 +249,49 @@ PASSO 4: Colorir (opcional)
     O estilo Mauricio de Sousa pode ser adaptado por profissionais ou ferramentas digitais.
     
     **Foque no conteúdo pedagógico e na diversão da aprendizagem!**
+
+## Montagem Final com Scribus (PUB)
+
+O **Scribus** é um software de desktop publishing (DTP) livre e profissional, ideal para montar o layout final do gibi antes da impressão.
+
+### Por que usar o Scribus?
+- Layout profissional de quadrinhos/revistas
+- Controle preciso de margens, sangria (bleed) e páginas mestras
+- Suporte a CMYK (essencial para impressão profissional)
+- Exportação para PDF/X-1a (padrão gráfico)
+- Gratuito e open source
+
+### Passo a Passo para o Gibi do Newton:
+
+1. **Baixe o Scribus:** [scribus.net](https://www.scribus.net/)
+2. **Crie um novo documento:**
+   - Tamanho: A4 ou formato de gibi (ex: 17x26cm)
+   - Margens: 1.5cm
+   - Sangria (bleed): 3mm (para gráfica não cortar conteúdo)
+   - Páginas: número total do gibi (ex: 20 páginas)
+
+3. **Importe as ilustrações:**
+   - Use Arquivo > Importar > Arquivo (PNG/JPG/PDF)
+   - Ajuste o tamanho e posição em cada página
+
+4. **Adicione textos (balões e legendas):**
+   - Use a ferramenta "Texto" para criar balões
+   - Importe o roteiro do Manuskript ou .txt
+
+5. **Organize as páginas:**
+   - Verifique a ordem cronológica
+   - Use páginas mestras para numeração automática
+
+6. **Exporte para PDF gráfico:**
+   - Arquivo > Exportar > Salvar como PDF
+   - Perfil: PDF/X-1a (padrão para gráficas)
+   - Resolução: 300 DPI (alta qualidade)
+
+!!! warning "Atenção para Impressão"
+    - **Imagens:** Use 300 DPI para impressão nítida
+    - **Cores:** Converta para CMYK (o Scribus faz isso automaticamente)
+    - **Fontes:** Converta textos para curvas (outlines) para evitar erros
+    - **Prova:** Faça uma impressão teste em casa antes da tiragem final
+
+!!! tip "Dica para o Grupo"
+    Quem não sabe desenhar pode aprender o Scribus! Montar o layout final é uma tarefa importante que qualquer membro pode fazer.
