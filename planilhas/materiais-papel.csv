@@ -1,0 +1,17 @@
+ITEM,TIPO,GRAMATURA,TAMANHO,USO,PRECO_MEDIO_UNITARIO,PRECO_MEDIO_RECMA,ONDE_COMPRAR
+Papel Couchê Brilho,Couchê,90g,A4,Rascunho colorido,0.03,18.00,Casa do Papel/Papiro
+Papel Couchê Brilho,Couchê,120g,A4,Arte final,0.05,25.00,Casa do Papel/Papiro
+Papel Couchê Brilho,Couchê,150g,A4,Capa,0.08,35.00,Gráficas online
+Papel Couchê Fosco,Couchê,90g,A4,Rascunho,0.02,15.00,Papelarias locais
+Papel Offset Comum,Offset,75g,A4,P&B econômico,0.02,10.00,Papelarias
+Papel Couchê Brilho,Couchê,170g,A4,Capa dura,0.08,40.00,Gráficas
+Papel Couchê Brilho,Couchê,250g,A4,Capa luxo,0.12,60.00,Gráficas
+
+CALCULO POR PÁGINA (só papel):
+90g: R$ 18,00 ÷ 500 = R$ 0,03/página
+120g: R$ 25,00 ÷ 500 = R$ 0,05/página
+75g: R$ 10,00 ÷ 500 = R$ 0,02/página
+
+SUBSTITUA [CIDADE] PELA TUA CIDADE:
+- [Nome da Papelaria 1] - [Endereço] - [Telefone]
+- [Nome da Papelaria 2] - [Endereço] - [Telefone]

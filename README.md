@@ -147,13 +147,29 @@ cd Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/Isaac_Newton
     - Mantenha a organização das pastas
     - Se não tiver certeza, faça uma cópia antes de alterar
 
+## Planilhas de Dados (CSV) no Projeto
+
+Foram criadas planilhas editáveis na pasta `planilhas/` para facilitar orçamentos:
+
+| Arquivo | Conteúdo | Localização |
+|---------|-----------|------------|
+| `materiais-papel.csv` | Papéis couché 90g, 120g, 150g + custo por página | `planilhas/materiais-papel.csv` |
+| `impressoras-comparacao.csv` | Jato de tinta vs. Laser + custo por página | `planilhas/impressoras-comparacao.csv` |
+| `orcamento-projeto.csv` | Template completo de orçamento | `planilhas/orcamento-projeto.csv` |
+
+!!! tip "Como usar"
+    - Abra no **Excel**, **Google Sheets** ou **Numbers**
+    - Edite os preços conforme sua cidade/região
+    - As tabelas no site (`orçamento-planilha`) usam estes dados
+    - **Adaptável para qualquer cidade!**
+
 ## Como Executar a Documentação Localmente (Opcional)
 
 Se quiser ver o site rodando no seu computador:
 
 ```bash
 # Instalar dependências (precisa ter Python instalado)
-pip install -r requirements.txt  # Instala versões travadas (mkdocs v1.4.8 + material v1.5.5)
+pip install -r requirements.txt  # Instala versões travadas (mkdocs v1.4.8)
 
 # Servir localmente (acessar http://localhost:8000)
 mkdocs serve

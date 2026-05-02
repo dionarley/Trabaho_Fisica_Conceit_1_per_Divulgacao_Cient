@@ -132,7 +132,24 @@
 
 ---
 
-## 6. Links Úteis
+## 6. Planilhas de Dados (CSV) no Projeto
+
+### Arquivos Disponíveis na Pasta `planilhas/`:
+
+| Arquivo | Conteúdo | Como Usar |
+|---------|-----------|----------|
+| `materiais-papel.csv` | Tabela de papéis (90g, 120g, 150g) | Abra no Excel, Google Sheets ou Numbers |
+| `impressoras-comparacao.csv` | Comparação de jato de tinta vs. laser | Edite os preços conforme sua região |
+| `orcamento-projeto.csv` | Template de orçamento completo | Preencha com seus dados |
+
+!!! tip "Como usar os CSVs"
+    - **Excel:** Arquivo → Abrir → Selecionar CSV → Delimitado por vírgula
+    - **Google Sheets:** Arquivo → Importar → Fazer upload → Converter texto para colunas
+    - **Numbers (Mac):** Arquivo → Importar → Selecionar CSV
+    
+    **Edite os dados conforme sua cidade/região!**
+
+## 7. Links Úteis
 
 - [Calculadora de Custo de Impressão](https://planilhadigital.com.br/impressos-digitais)
 - [Tabela de Preços Gráfica Papiro](https://www.graficapapiro.com.br/)

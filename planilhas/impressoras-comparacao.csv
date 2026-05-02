@@ -1,0 +1,17 @@
+MODELO,TIPO,PRECO_INICIAL,RENDIMENTO,CUSTO_POR_PAGINA,MELHOR_PARA
+Epson EcoTank L4360,Tanque colorido,1300.00,6000,0.011,Alto volume + cores
+Canon MegaTank G3110,Tanque colorido,1100.00,6000,0.013,Custo-benefício
+HP Smart Tank 581,Tanque colorido,900.00,4000,0.019,Menor investimento inicial
+Epson EcoTank L3250,Tanque P&B,800.00,4500,0.013,Só preto e branco
+Brother HL-L1232W,Laser mono,1300.00,1000,0.089,Compacta, menor preço
+Brother DCP-L1632W,Laser multif.,1900.00,1000,0.089,Com scanner
+HP Laser 107w,Laser mono,1200.00,1000,0.44,Compacta
+HP Laser MFP 135w,Laser multif.,1500.00,1000,0.44,Multifuncional
+
+CALCULO CUSTO TOTAL POR PÁGINA (Papel + Tinta/Toner):
+Jato de tinta (90g + tinta): R$ 0,03 + R$ 0,015 = R$ 0,045/página colorida
+Laser (75g + toner): R$ 0,02 + R$ 0,089 = R$ 0,109/página P&B
+
+SUBSTITUA [CIDADE] PELA TUA CIDADE:
+- [Loja 1] - [Endereço] - [Telefone]
+- [Loja 2] - [Endereço] - [Telefone]

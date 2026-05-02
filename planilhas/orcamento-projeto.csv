@@ -1,0 +1,32 @@
+SERVICO,FORMATO,PAPEL,QUANTIDADE,PRECO_UNITARIO,TOTAL,PRAZO,ONDE
+Impressão Digital Colorida,A4,90g,50 cópias,1.50,75.00,1-2 dias,[Gráfica Local 1]
+Impressão Digital Colorida,A4,120g,50 cópias,2.50,125.00,1-2 dias,[Gráfica Local 1]
+Impressão P&B Digital,A4,75g,100 cópias,0.30,30.00,1 dia,[Gráfica Local 2]
+Impressão Offset,A4,90g,500 cópias,0.80,400.00,3-5 dias,[Gráfica Local 3]
+Impressão Offset,A4,120g,500 cópias,1.20,600.00,3-5 dias,[Gráfica Local 3]
+Plastificação Fosca,A4,--,50 un.,2.00,100.00,1 dia,[Gráfica Local 1]
+Encadernação Espiral,A4,--,1 un.,15.00,15.00,1 dia,[Gráfica Local 1]
+
+ORÇAMENTO DO PROJETO (Exemplo: 50 cópias A4 90g colorido):
+ITEM,QUANTIDADE,PRECO_UNIT,TOTAL
+Papel Couchê 90g (5 resmas),5 resmas,18.00,90.00
+Impressão Digital Colorida,50 cópias,1.50,75.00
+Plastificação Fosca,50 un.,2.00,100.00
+Encadernação Espiral,50 un.,15.00,750.00
+TOTAL,,,,1015.00
+CUSTO POR CÓPIA: R$ 20,30/cópia
+
+COMPARAÇÃO: FAZER EM CASA VS. TERCEIRIZAR:
+CRITERIO,IMPRESSÃO EM CASA,GRÁFICA LOCAL,VENCEDOR
+Investimento Inicial,R$ 900-1300 (impressora),R$ 0.00,Gráfica
+Custo por Página,R$ 0,045 (casa),R$ 1,50 (digital),Casa (33x menor)
+Tempo de Produção,2-3 dias (50 cópias),1-2 dias,Gráfica
+Qualidade,Boa (depende da tinta),Excelente (profissional),Gráfica
+Recomendado para,< 20 cópias,> 20 cópias,Depende do volume
+
+SUBSTITUA [CIDADE/ESTADO] PELA TUA CIDADE:
+| Nome da Gráfica | Endereço | Telefone | Especialidade | Site |
+|---------|----------|----------|--------------|------------|
+| [Nome 1] | [Rua X, N° Y] | (XX) XXXX-XXXX | Digital/Offset | [site.com.br] |
+| [Nome 2] | [Rua X, N° Y] | (XX) XXXX-XXXX | Cópias/Copia | [site.com.br] |
+| [Nome 3] | [Rua X, N° Y] | (XX) XXXX-XXXX | Offset | [site.com.br] |
