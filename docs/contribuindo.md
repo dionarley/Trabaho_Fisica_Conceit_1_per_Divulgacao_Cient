@@ -2,6 +2,14 @@
 
 Obrigado pelo interesse em contribuir com este projeto acadêmico! Este documento fornece diretrizes para contribuições.
 
+## Primeiros Passos - Cadastro no Grupo
+
+Antes de contribuir, preencha o formulário de cadastro:
+
+**Formulário Google:** [Cadastro de Membros - Projeto Isaac Newton](https://forms.gle/COLOQUE_O_LINK_AQUI)
+
+Após preencher, seus dados estarão disponíveis na planilha: `planilhas/membros-grupo.csv`
+
 ## Tipos de Contribuição
 
 Você pode contribuir com:

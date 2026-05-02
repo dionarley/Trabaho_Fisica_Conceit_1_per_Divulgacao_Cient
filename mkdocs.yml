@@ -54,10 +54,12 @@ markdown_extensions:
   - md_in_html
 
 plugins:
+  - to-pdf
+
   - search:
-  - pdf-export:
+  - with-pdf:
       enabled_if_env: ENABLE_PDF_EXPORT
-      media_type: print
+      output_path: documento-isaac-newton.pdf
       verbose: true
 
 extra:

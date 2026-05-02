@@ -15,6 +15,13 @@ Bem-vindo ao repositório de materiais e pesquisas sobre Isaac Newton, desenvolv
 | **Horários** | Terça e Quinta, 19:10 - 20:50 |
 | **Período** | Primeiro Período (Unimontes) |
 
+## Download da Documentação em PDF
+
+[📄 Baixar Documentação Completa (PDF)](documento-isaac-newton.pdf){ .md-button .md-button--primary }
+
+!!! info "Sobre o PDF"
+    O PDF contém toda a documentação do projeto em um único arquivo, incluindo todas as páginas, referências e recursos. Ideal para leitura offline ou impressão.
+
 ## Sobre o Projeto
 
 Este trabalho aborda as contribuições científicas de **Sir Isaac Newton** (1642-1727) para fins educacionais.

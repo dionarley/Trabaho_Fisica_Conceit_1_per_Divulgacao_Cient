@@ -38,6 +38,17 @@
 - [ ] Apresentação (se houver)
 - [ ] Documentação no repositório
 
+## Participantes:
+
+!!! info "Cadastro do Grupo"
+    Os membros do grupo devem preencher o formulário Google e seus dados estarão em `planilhas/membros-grupo.csv`.
+
+| Nome | RAM | E-mail | WhatsApp |
+|------|-----|--------|----------|
+|      |     |        |          |
+|      |     |        |          |
+|      |     |        |          |
+
 ## Marcos Importantes
 
 | Data | Marco | Responsável |
