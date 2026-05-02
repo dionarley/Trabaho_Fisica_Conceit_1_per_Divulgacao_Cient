@@ -32,23 +32,29 @@ O formato e conteúdo final serão definidos pelos demais membros/colegas de cur
 Isaac_Newton/
 ├── Documentos/           # Textos, rascunhos e notas do projeto
 │   ├── README.txt       # Roteiro e notas (a definir pelo grupo)
+│   ├── proposta.md      # Proposta inicial (rascunho)
 │   └── .license.txt     # Arquivo de licença (gitignored)
 ├── Imagens/             # Imagens de Isaac Newton (várias idades)
 ├── Referencias_PDFs/    # Referências acadêmicas e artigos
 ├── docs/                # Documentação MkDocs
-│   ├── index.md         # Página inicial
-│   ├── sobre.md         # Sobre o projeto
-│   ├── proposta.md      # Proposta inicial (rascunho)
-│   ├── rascunhos.md     # Ideias e brainstorm
-│   ├── referencias.md   # Referências bibliográficas
-│   ├── cronograma.md    # Cronograma do grupo
-│   ├── recursos.md      # Recursos e materiais
-│   ├── contribuindo.md  # Guia de contribuição
-│   └── licenca.md      # Detalhes da licença
+│   ├── index.md               # Página inicial
+│   ├── sobre.md               # Sobre o projeto
+│   ├── proposta.md            # Proposta inicial
+│   ├── tutorial-roteiro.md     # Tutorial de roteiro
+│   ├── tutorial-ilustracao.md  # Tutorial de ilustração
+│   ├── orcamento-planilha.md  # Planilha de orçamento
+│   ├── rascunhos.md         # Ideias e brainstorm
+│   ├── referencias.md       # Referências bibliográficas
+│   ├── cronograma.md        # Cronograma do grupo
+│   ├── recursos.md          # Recursos e materiais
+│   ├── contribuindo.md      # Guia de contribuição
+│   └── licenca.md          # Detalhes da licença
 ├── mkdocs.yml          # Configuração do MkDocs
+├── requirements.txt     # Versões travadas (mkdocs v1.x)
+├── Isaac_Newton.zip    # Arquivo com materiais
 ├── LICENSE              # CC BY-NC-SA 4.0
 ├── README.md           # Este arquivo
-└── .gitignore          # Ignora .license.txt
+└── .gitignore          # Ignora .license.txt, site/
 ```
 
 ## Documentação Online
@@ -56,17 +62,31 @@ Isaac_Newton/
 A documentação completa está disponível no GitHub Pages:  
 🔗 **https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/**
 
-### Páginas Disponíveis
+### Páginas Disponíveis (Menu Aninhado)
 
-- **[Início](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/)** - Visão geral do projeto
-- **[Sobre o Projeto](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/sobre/)** - Detalhes e objetivos
-- **[Proposta Inicial](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/proposta/)** - Ideias e rascunhos iniciais
-- **[Rascunhos e Ideias](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/rascunhos/)** - Brainstorm do grupo
-- **[Referências](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/referencias/)** - Bibliografia
-- **[Cronograma](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/cronograma/)** - Prazos e marcos
-- **[Recursos](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/recursos/)** - Ferramentas e materiais
-- **[Como Contribuir](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/contribuindo/)** - Guia para colaboradores
-- **[Licença](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/licenca/)** - CC BY-NC-SA 4.0
+**1. Início**
+- [Início](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/) - Visão geral do projeto
+
+**2. Sobre o Projeto**
+- [Sobre](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/sobre/) - Detalhes e objetivos
+- [Proposta](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/proposta/) - Ideias e rascunhos iniciais
+
+**3. Tutoriais**
+- [Roteiro](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/tutorial-roteiro/) - Como criar enredo e roteiro
+- [Ilustração](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/tutorial-ilustracao/) - Como ilustrar quadrinhos
+- [Orçamento Planilha](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/orcamento-planilha/) - Custos editável (qualquer cidade)
+
+**4. Documentação**
+- [Rascunhos](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/rascunhos/) - Ideias e brainstorm
+- [Referências](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/referencias/) - Bibliografia
+- [Cronograma](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/cronograma/) - Prazos e marcos
+- [Recursos](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/recursos/) - Ferramentas e materiais
+
+**5. Como Contribuir**
+- [Contribuir](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/contribuindo/) - Guia para colaboradores
+
+**6. Licença**
+- [Licença](https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/licenca/) - CC BY-NC-SA 4.0
 
 ## Referências Bibliográficas
 
@@ -133,7 +153,7 @@ Se quiser ver o site rodando no seu computador:
 
 ```bash
 # Instalar dependências (precisa ter Python instalado)
-pip install mkdocs mkdocs-material
+pip install -r requirements.txt  # Instala versões travadas (mkdocs v1.4.8 + material v1.5.5)
 
 # Servir localmente (acessar http://localhost:8000)
 mkdocs serve
@@ -144,6 +164,11 @@ mkdocs build
 # Deploy para GitHub Pages (apenas se tiver permissão)
 mkdocs gh-deploy
 ```
+
+!!! info "Sobre o MkDocs"
+    - **Versão atual:** mkdocs v1.4.8 + mkdocs-material v1.5.5 (travadas em `requirements.txt`)
+    - **v2.0:** Aviso de mudanças incompatíveis (futuro) - podemos ficar na v1.x
+    - **Site online:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
 !!! info "Não precisa fazer isso"
     O site já está online em: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
