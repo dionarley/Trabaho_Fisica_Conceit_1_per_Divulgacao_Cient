@@ -167,3 +167,19 @@
     - Gráfica Golden (Online, cartões, catálogos)
     
     Mas lembre-se: **adapte para sua cidade!**
+
+## 7. Download em PDF
+
+O projeto agora gera um **PDF completo** de toda a documentação:
+
+```bash
+# Gerar PDF (após mkdocs build)
+mkdocs build
+# PDF gerado em: site/documento-isaac-newton.pdf
+```
+
+!!! tip "Plugin mkdocs-pdf-export"
+    - Plugin: `mkdocs-pdf-export-plugin`
+    - Gera PDF com sumário automático
+    - Suporta cabeçalhos e rodapé
+    - Requer: Python 3.6+, Cairo, Pango, GDK-PixBuf

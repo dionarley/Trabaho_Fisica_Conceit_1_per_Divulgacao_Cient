@@ -62,6 +62,18 @@ Isaac_Newton/
 A documentação completa está disponível no GitHub Pages:  
 🔗 **https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/**
 
+### Download em PDF
+
+Após o build, o arquivo PDF completo estará disponível em:  
+📄 **`site/documento-isaac-newton.pdf`** (gerado automaticamente pelo plugin `pdf-export`)
+
+Para gerar o PDF manualmente:
+```bash
+cd "/home/dnly/Documentos/Dionarley_Ruas_Vieira/Unimontes_Grad/Primeiro_Periodo/Fisica_Conceitual_I/Trabalhos/Isaac_Newton"
+mkdocs build  # Gera site/ + PDF
+# O PDF estará em: site/documento-isaac-newton.pdf
+```
+
 ### Páginas Disponíveis (Menu Aninhado)
 
 **1. Início**

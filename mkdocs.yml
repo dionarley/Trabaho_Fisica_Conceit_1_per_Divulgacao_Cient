@@ -53,6 +53,13 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+plugins:
+  - search:
+  - pdf-export:
+      enabled_if_env: ENABLE_PDF_EXPORT
+      media_type: print
+      verbose: true
+
 extra:
   social:
     - icon: fontawesome/brands/github
