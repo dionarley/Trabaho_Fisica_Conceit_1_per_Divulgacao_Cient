@@ -9,6 +9,8 @@ educational comic book format inspired by Mauricio de Sousa's style.
 **Professor:** Vitor Monteiro
 **Schedule:** Tue, Thu 19:10 - 20:50
 **Group Work:** The comic script (roteiro) will be defined by group members/colleagues
+**GitHub Repository:** https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+**GitHub Pages:** https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
 
 ## Repository Structure
 
@@ -19,19 +21,32 @@ Isaac_Newton/
 │   └── .license.txt     # License file (gitignored)
 ├── Imagens/             # Images of Isaac Newton (various ages)
 ├── Referencias_PDFs/    # Academic references and papers
+├── docs/                # MkDocs documentation source
+│   ├── index.md         # Home page
+│   ├── sobre.md         # About the project
+│   ├── roteiro.md       # Comic script (to be defined by group)
+│   ├── imagens.md       # Image gallery
+│   ├── referencias.md   # Academic references
+│   ├── contribuindo.md  # Contribution guide
+│   └── licenca.md      # License details
+├── mkdocs.yml          # MkDocs configuration
 ├── LICENSE              # CC BY-NC-SA 4.0 License
 ├── .gitignore          # Ignores .license.txt
+├── README.md           # Project README
 └── Isaac_Newton.zip    # Archive of materials
 ```
 
 ## Build/Lint/Test Commands
 
-This is a documentation and research repository with no build system, linter, or test framework.
-If code is added in the future, document the commands here:
+This is a documentation and research repository. MkDocs is used for documentation.
 
 ```bash
-# No current build system
-# If adding scripts (Python, etc.), consider:
+# MkDocs commands
+mkdocs serve                    # Serve documentation locally at localhost:8000
+mkdocs build                    # Build the documentation site
+mkdocs gh-deploy                # Deploy to GitHub Pages (gh-pages branch)
+
+# If adding Python scripts in the future:
 #   python -m pytest tests/              # Run all tests
 #   python -m pytest tests/test_file.py  # Run single test file
 #   python -m pytest tests/test_file.py::test_name  # Run single test
@@ -129,4 +144,5 @@ git push origin main
 - Respect the CC BY-NC-SA 4.0 license for all contributions
 - No automated testing exists; verify changes manually
 - The `.license.txt` file is intentionally gitignored
-- MkDocs documentation structure is ready for future content insertions
+- MkDocs documentation is hosted at: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+- GitHub repository: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
