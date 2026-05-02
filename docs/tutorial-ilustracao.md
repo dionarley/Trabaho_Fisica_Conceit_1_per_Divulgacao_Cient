@@ -4,6 +4,12 @@
     Este tutorial é um guia prático para ilustrar quadrinhos, especialmente no estilo Mauricio de Sousa.
     É voltado tanto para iniciantes quanto para quem já tem experiência.
 
+!!! warning "Importante: Realidade do Grupo"
+    - **Apenas um membro pode ilustrar:** É provável que apenas um membro do grupo tenha habilidade ou interesse em desenhar.
+    - **Terceirização:** Existe a possibilidade de contratar um desenhista externo (freelancer) para fazer as ilustrações.
+    - **Opção mista:** O grupo faz o roteiro e contrata alguém para ilustrar.
+    - **Não precisa todos desenharem:** O importante é o conteúdo final, não quem desenhou.
+
 ## 1. Materiais Necessários (Para Leigos)
 
 ### Materiais Físicos (Tradicionais)
@@ -128,6 +134,33 @@ PASSO 4: Colorir (opcional)
 
 ## 5. Dicas para o Grupo
 
+### Realidade: Apenas Um Membro Ilustra
+
+!!! tip "Se apenas um membro vai desenhar"
+    - O membro designado deve criar um **Model Sheet** (folha de personagem) para os outros aprovarem
+    - Os outros membros podem fazer rascunhos básicos ou anotações visuais
+    - Use o Canva ou Pixton para criar layouts rápidos sem precisar desenhar bem
+    - O roteirista pode descrever as cenas detalhadamente para o ilustrador
+
+### Opção: Terceirizar (Contratar Desenhista Externo)
+
+!!! question "Pensando em contratar alguém?"
+    **Vantagens:**
+    - Arte profissional garantida
+    - O grupo foca no roteiro e pesquisa
+    - Prazo definido e entrega garantida
+    
+    **Cuidados:**
+    - Defina claramente o estilo desejado (Mauricio de Sousa)
+    - Forneça exemplos visuais (revistas da Turma da Mônica)
+    - Estabeleça prazos e preço antes de começar
+    - Peça amostras (portfólio) antes de contratar
+    
+    **Onde encontrar:**
+    - Sites: Workana, 99Freelas, Freelancer.com
+    - Redes sociais: Instagram (#ilustrador #quadrinhos)
+    - Estudantes de artes visuais em universidades locais
+
 ### Para Iniciantes Absolutos
 
 !!! question "Nunca desenhou antes?"
@@ -188,15 +221,31 @@ PASSO 4: Colorir (opcional)
 
 ## 8. Próximos Passos
 
-1. O grupo deve decidir: arte física (lápis/caneta) ou digital?
-2. Definir quem vai desenhar cada parte
-3. Cada membro treina o estilo (copiando Mônica, Cebolinha, etc.)
+### Cenário 1: Um Membro do Grupo Ilustra
+1. Definir quem será o ilustrador oficial
+2. Este membro cria o Model Sheet para aprovação do grupo
+3. Grupo foca no roteiro e pesquisa enquanto um desenha
 4. Reunir esboços e escolher os melhores
 5. Fazer arte-final e colorir
 6. Montar as páginas no computador (ou grampear folhas)
 
+### Cenário 2: Terceirizar (Contratar Externo)
+1. Grupo termina o roteiro completo
+2. Criar briefig detalhado (estilo, personagens, cenas)
+3. Buscar desenhistas em plataformas online
+4. Pedir orçamento e prazo de entrega
+5. Fornecer exemplos visuais (estilo Mauricio de Sousa)
+6. Aprovar esboços e receber arte final
+7. Grupo monta as páginas com as ilustrações recebidas
+
+### Cenário 3: Uso de Ferramentas Digitais Sem Desenho
+1. Usar Canva ou Pixton para criar quadrinhos sem desenhar
+2. Templates prontos com personagens
+3. Personalizar textos e balões
+4. Exportar como PDF ou imagens
+
 !!! success "Dica Final"
-    Não tenha medo de errar! O estilo Mauricio de Sousa é divertido justamente porque
-    permite imperfeições e exageros. O importante é a história e a diversão!
+    Não importa quem desenhe ou se terceirizaram: o importante é a história educativa!
+    O estilo Mauricio de Sousa pode ser adaptado por profissionais ou ferramentas digitais.
     
-    **Pratique todo dia por 15 minutos e verá evolução em uma semana!**
+    **Foque no conteúdo pedagógico e na diversão da aprendizagem!**
