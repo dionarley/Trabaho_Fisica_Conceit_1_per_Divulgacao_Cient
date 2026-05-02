@@ -28,9 +28,11 @@ theme:
 nav:
   - Início: index.md
   - Sobre o Projeto: sobre.md
-  - Roteiro do Gibi: roteiro.md
-  - Imagens: imagens.md
+  - Proposta Inicial: proposta.md
+  - Rascunhos e Ideias: rascunhos.md
   - Referências: referencias.md
+  - Cronograma: cronograma.md
+  - Recursos: recursos.md
   - Como Contribuir: contribuindo.md
   - Licença: licenca.md
 
