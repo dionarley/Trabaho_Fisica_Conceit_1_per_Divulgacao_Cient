@@ -1,2 +1,33 @@
+# Protect personal data
 .license.txt
+planilhas/membros-grupo.csv
+planilhas/*.ods
+planilhas/.~lock.*
+Documentos/membros.txt
+Documentos/.license.txt
+
+# Build artifacts
 site/
+backups/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MkDocs
+.mise/
+
+# Large files
+Referencias_PDFs/monografia-Durval-Araujo-de-Mendonça.pdf

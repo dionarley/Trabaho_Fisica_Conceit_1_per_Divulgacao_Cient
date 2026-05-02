@@ -75,10 +75,21 @@ Isaac_Newton/
 │   └── licenca.md                # Detalhes da licença
 ├── mkdocs.yml                     # Configuração do MkDocs
 ├── requirements.txt                # Dependências (mkdocs v1.4.8, mkdocs-material v1.5.5)
+├── scripts/                       # Scripts de automação (9 scripts)
+│   ├── build-deploy.sh          # Build e deploy completo
+│   ├── generate-pdf.sh          # Geração de PDF com verificação
+│   ├── check-links.sh          # Verifica URLs quebradas
+│   ├── check-security.sh        # Verifica vazamentos de dados
+│   ├── validate-csv.sh         # Valida cabeçalhos dos CSVs
+│   ├── update-members.sh       # Atualiza membros via CSV
+│   ├── setup-env.sh            # Configura ambiente de dev
+│   ├── backup.sh               # Backup do projeto em ZIP
+│   ├── test-all.sh             # Executa todos os testes
+│   └── test-mkdocs-serve.sh   # Testa servidor local MkDocs
 ├── AGENTS.md                      # Guia para agentes IA
 ├── LICENSE                        # CC BY-NC-SA 4.0
 ├── README.md                      # Este arquivo
-├── .gitignore                     # Ignora .license.txt, site/, *~
+├── .gitignore                     # Proteção de dados pessoais
 └── Isaac_Newton.zip               # Arquivo com materiais
 ```
 
@@ -231,3 +242,54 @@ mkdocs gh-deploy --force
 
 !!! info "Não precisa fazer isso"
     O site já está online em: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
+
+## Scripts de Automação
+
+O projeto inclui **9 scripts de automação** na pasta `scripts/`:
+
+| Script | Propósito | Uso |
+|--------|-----------|-----|
+| `build-deploy.sh` | Build e deploy completo | `./scripts/build-deploy.sh [--no-pdf] [--skip-deploy]` |
+| `generate-pdf.sh` | Geração de PDF com verificação | `./scripts/generate-pdf.sh [--open] [--serve]` |
+| `check-links.sh` | Verifica URLs quebradas | `./scripts/check-links.sh [--fix]` |
+| `check-security.sh` | Verifica vazamentos de dados | `./scripts/check-security.sh [--fix]` |
+| `validate-csv.sh` | Valida cabeçalhos dos CSVs | `./scripts/validate-csv.sh` |
+| `update-members.sh` | Atualiza membros via CSV | `./scripts/update-members.sh` |
+| `setup-env.sh` | Configura ambiente de dev | `./scripts/setup-env.sh` |
+| `backup.sh` | Backup do projeto em ZIP | `./scripts/backup.sh [nome-backup]` |
+| `test-all.sh` | Executa todos os testes | `./scripts/test-all.sh` |
+| `test-mkdocs-serve.sh` | Testa servidor local MkDocs | `./scripts/test-mkdocs-serve.sh [--pdf]` |
+
+### Execução Rápida:
+
+```bash
+# Verificar URLs quebradas
+bash scripts/check-links.sh
+
+# Verificar segurança e vazamentos
+bash scripts/check-security.sh
+
+# Rodar todos os testes (20 testes)
+bash scripts/test-all.sh
+
+# Gerar PDF
+bash scripts/generate-pdf.sh
+
+# Build e deploy completo
+bash scripts/build-deploy.sh
+
+# Servidor local (testes)
+bash scripts/test-mkdocs-serve.sh
+```
+
+### Testes Automatizados:
+
+- ✅ **20/20 testes passando** (`test-all.sh`)
+- ✅ Verificação de sintaxe Bash
+- ✅ Validação de scripts executáveis
+- ✅ Teste de geração de PDF
+- ✅ Verificação de CSVs
+- ✅ Criação de backups
+
+!!! tip "Dica"
+    Sempre rode `bash scripts/check-links.sh` e `bash scripts/check-security.sh` antes de fazer commit!
