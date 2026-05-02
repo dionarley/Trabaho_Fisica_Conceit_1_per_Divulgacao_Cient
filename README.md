@@ -86,10 +86,53 @@ Este trabalho está licenciado sob a **Creative Commons Attribution-NonCommercia
 
 Veja o arquivo [LICENSE](LICENSE) para mais detalhes ou acesse: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-## Como Executar a Documentação Localmente
+## Como Baixar e Usar este Repositório (Para Leigos)
+
+### Opção 1: Baixar sem usar Git (Mais Simples)
+
+1. Acesse: https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient
+2. Clique no botão verde **"Code"** (Código)
+3. Clique em **"Download ZIP"** (Baixar ZIP)
+4. Extraia o arquivo ZIP no seu computador
+5. Pronto! Agora você tem todos os arquivos
+
+### Opção 2: Usando Git (Para quem já conhece)
 
 ```bash
-# Instalar dependências
+# Baixar o repositório (clone)
+git clone https://github.com/dionarley/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient.git
+
+# Entrar na pasta
+cd Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/Isaac_Newton
+```
+
+### Como Usar os Arquivos
+
+| Pasta/Arquivo | Para que serve |
+|---------------|----------------|
+| `Documentos/` | Roteiros, notas e textos do projeto |
+| `Imagens/` | Fotos e imagens do Isaac Newton |
+| `Referencias_PDFs/` | Artigos e materiais de pesquisa em PDF |
+| `docs/` | Documentação online (site) |
+| `README.md` | Este arquivo de explicação |
+
+### Dicas para Iniciantes
+
+!!! tip "Editando arquivos"
+    - Arquivos `.md` (Markdown) podem ser abertos com: Bloco de Notas, Word, Google Docs ou qualquer editor de texto
+    - Arquivos `.txt` são textos simples
+    - Arquivos `.pdf` precisam de um leitor de PDF (Adobe Reader, navegador, etc.)
+
+!!! warning "Não apague arquivos importantes"
+    - Mantenha a organização das pastas
+    - Se não tiver certeza, faça uma cópia antes de alterar
+
+## Como Executar a Documentação Localmente (Opcional)
+
+Se quiser ver o site rodando no seu computador:
+
+```bash
+# Instalar dependências (precisa ter Python instalado)
 pip install mkdocs mkdocs-material
 
 # Servir localmente (acessar http://localhost:8000)
@@ -98,6 +141,9 @@ mkdocs serve
 # Gerar site estático
 mkdocs build
 
-# Deploy para GitHub Pages
+# Deploy para GitHub Pages (apenas se tiver permissão)
 mkdocs gh-deploy
 ```
+
+!!! info "Não precisa fazer isso"
+    O site já está online em: https://dionarley.github.io/Trabaho_Fisica_Conceit_1_per_Divulgacao_Cient/
