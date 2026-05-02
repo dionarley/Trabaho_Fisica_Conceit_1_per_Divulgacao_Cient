@@ -151,10 +151,10 @@
 
 ## 7. Links Úteis
 
-- [Calculadora de Custo de Impressão](https://planilhadigital.com.br/impressos-digitais)
+- [Calculadora de Custo de Impressão](https://www.calculadoraonline.com.br/impressao)
 - [Tabela de Preços Gráfica Papiro](https://www.graficapapiro.com.br/)
 - [Manual da Impressora - Custo por Página](https://manualdaimpressora.com.br/)
-- [Google Sheets - Criar Planilha](https://sheets.google.com/)
+- [Google Sheets - Criar Planilha](https://docs.google.com/spreadsheets/)
 
 !!! success "Dica Final"
     Esta planilha é **universal**! Funciona para qualquer cidade.
