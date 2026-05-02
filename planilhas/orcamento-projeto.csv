@@ -16,15 +16,28 @@ Encadernação Espiral,50 un.,15.00,750.00
 TOTAL,,,,1015.00
 CUSTO POR CÓPIA: R$ 20,30/cópia
 
+ILUSTRAÇÃO (Opções):
+ITEM,VALOR,DESCRIÇÃO
+Freelancer (artista local),R$ 200-500/página,Ilustração profissional sob demanda
+Gráfica (terceirizar),R$ 300-800/página,Inclui arte final + ajustes
+Canva/Pixton (digital),R$ 0,00 (grátis),Templates prontos, sem desenho
+Fazer em casa (jato),R$ 0,045/página,Apenas impressão + papel
+
+CUSTO DE ILUSTRAÇÃO (Exemplo: 10 páginas):
+ITEM,QUANTIDADE,PRECO_UNIT,TOTAL
+Freelancer (10 pgs),10 páginas,300.00,3000.00
+Gráfica (10 pgs),10 páginas,500.00,5000.00
+Fazer em casa (10 pgs),10 páginas,0.045,0.45 (só papel + tinta)
+
 COMPARAÇÃO: FAZER EM CASA VS. TERCEIRIZAR:
-CRITERIO,IMPRESSÃO EM CASA,GRÁFICA LOCAL,VENCEDOR
-Investimento Inicial,R$ 900-1300 (impressora),R$ 0.00,Gráfica
-Custo por Página,R$ 0,045 (casa),R$ 1,50 (digital),Casa (33x menor)
+CRITÉRIO,IMPRESSÃO EM CASA,GRÁFICA LOCAL,VENCEDOR
+Investimento Inicial,R$ 900-1.300 (impressora),R$ 0,00,Gráfica
+Custo por Página,R$ 0,045 (90g + jato),R$ 1,50 (digital),Casa (33x menor)
 Tempo de Produção,2-3 dias (50 cópias),1-2 dias,Gráfica
 Qualidade,Boa (depende da tinta),Excelente (profissional),Gráfica
-Recomendado para,< 20 cópias,> 20 cópias,Depende do volume
+Recomendado para,< 20 cópias, rascunhos,>20 cópias, acabamento,Depende do volume
 
-SUBSTITUA [CIDADE/ESTADO] PELA TUA CIDADE:
+SUBSTITUA [CIDADE/ESTADO] PELA TABELA:
 | Nome da Gráfica | Endereço | Telefone | Especialidade | Site |
 |---------|----------|----------|--------------|------------|
 | [Nome 1] | [Rua X, N° Y] | (XX) XXXX-XXXX | Digital/Offset | [site.com.br] |
