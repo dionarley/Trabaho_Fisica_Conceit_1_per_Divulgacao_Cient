@@ -18,10 +18,10 @@ Repositório destinado ao armazenamento de materiais e pesquisas para o trabalho
 |---|------|--------|
 | 1 | Amanda | Administradora do WhatsApp |
 | 2 | Sara | Coordenadora |
-| 3 | Bernado | A definir |
-| 4 | Miguel | A definir |
+| 3 | Bernado | Pesquisa / Revisão |
+| 4 | Miguel | Pesquisa / Revisão |
 | 5 | Dionarley Ruas Vieira | TI, Documentos, Ilustração |
-| 6 | ? | A definir (WhatsApp final 6144) |
+| 6 | Andre | Pesquisa / Revisão |
 
 ## Sobre o Projeto
 
@@ -37,61 +37,17 @@ Este trabalho aborda as contribuições científicas de Sir Isaac Newton (1642-1
 
 ```
 Isaac_Newton/
-├── Documentos/                    # Textos, rascunhos e notas do projeto
-│   ├── README.txt                 # Roteiro e notas (a definir pelo grupo)
-│   ├── membros.txt                # Lista de membros do grupo
-│   ├── esbocos_do_trabalho_*      # Rascunhos iniciais
-│   ├── Isaac Newton.pdf           # PDF de referência
-│   └── .license.txt              # Arquivo de licença (gitignored)
-├── Imagens/                       # Imagens de Isaac Newton (várias idades)
-│   ├── isaac-newton.jpg
-│   ├── IN1-45-65.jpg
-│   ├── IN0-40-60.jpg
-│   └── ... (outras imagens)
-├── Referencias_PDFs/              # Referências acadêmicas e artigos
-│   ├── 9 - Isaac Newton.pdf
-│   ├── 77_biografia.pdf
-│   ├── monografia-Durval-Araujo-de-Mendonça.pdf
-│   └── Isaac Newton PDF.pdf
-├── planilhas/                     # Planilhas CSV editáveis
-│   ├── materiais-papel.csv        # Preços de papel
-│   ├── impressoras-comparacao.csv # Comparação de impressoras
-│   ├── orcamento-projeto.csv      # Orçamento completo
-│   └── membros-grupo.csv         # Cadastro de membros
-├── docs/                          # Documentação MkDocs
-│   ├── index.md                   # Página inicial (com download PDF)
-│   ├── sobre.md                   # Sobre o projeto
-│   ├── proposta.md                # Proposta inicial
-│   ├── tutorial-roteiro.md        # Tutorial de roteiro
-│   ├── tutorial-ilustracao.md     # Tutorial de ilustração
-│   ├── orcamento-planilha.md      # Planilha de orçamento
-│   ├── rascunhos.md               # Ideias e brainstorm
-│   ├── referencias.md             # Referências bibliográficas
-│   ├── cronograma.md              # Cronograma do grupo
-│   ├── recursos.md                # Recursos e materiais
-│   ├── contribuindo.md            # Guia de contribuição
-│   ├── imagens.md                 # Galeria de imagens
-│   ├── roteiro.md                 # Roteiro do gibi
-│   └── licenca.md                # Detalhes da licença
-├── mkdocs.yml                     # Configuração do MkDocs
-├── requirements.txt                # Dependências (mkdocs v1.4.8, mkdocs-material v1.5.5)
-├── scripts/                       # Scripts de automação (9 scripts)
-│   ├── build-deploy.sh          # Build e deploy completo
-│   ├── generate-pdf.sh          # Geração de PDF com verificação
-│   ├── check-links.sh          # Verifica URLs quebradas
-│   ├── check-security.sh        # Verifica vazamentos de dados
-│   ├── validate-csv.sh         # Valida cabeçalhos dos CSVs
-│   ├── update-members.sh       # Atualiza membros via CSV
-│   ├── setup-env.sh            # Configura ambiente de dev
-│   ├── backup.sh               # Backup do projeto em ZIP
-│   ├── test-all.sh             # Executa todos os testes
-│   └── test-mkdocs-serve.sh   # Testa servidor local MkDocs
-├── AGENTS.md                      # Guia para agentes IA
-├── LICENSE                        # CC BY-NC-SA 4.0
-├── README.md                      # Este arquivo
-├── .gitignore                     # Proteção de dados pessoais
-└── Isaac_Newton.zip               # Arquivo com materiais
+├── Documentos/          # Textos, rascunhos e notas
+├── Imagens/             # Imagens de Isaac Newton
+├── Referencias_PDFs/    # Referências acadêmicas
+├── planilhas/           # CSVs editáveis (orçamento, membros)
+├── docs/                # Documentação MkDocs (16 páginas)
+├── scripts/             # Automação (9 scripts + testes)
+├── mkdocs.yml          # Configuração MkDocs
+└── requirements.txt     # Dependências (mkdocs v1.4.8)
 ```
+
+**Páginas principais:** Início, Sobre, Tutoriais (Roteiro, Ilustração, Orçamento), Documentação, Glossário, Licença.
 
 ## Documentação Online
 
@@ -172,6 +128,16 @@ Este trabalho está licenciado sob a **Creative Commons Attribution-NonCommercia
 - ♻️ Obras derivadas sob a mesma licença
 
 Veja o arquivo [LICENSE](LICENSE) para mais detalhes ou acesse: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## Releases (Downloads)
+
+Além do botão **"Code"** (📥) no GitHub, o projeto tem **Releases** taggeadas:
+
+- 🏷️ **[v1.1.0 - Latest](https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/releases/tag/v1.1.0)** - Glossário, membros atualizados
+- 📦 **[v1.0.0 - Stable](https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/releases/tag/v1.0.0)** - Versão estável completa
+- 🧪 **[v0.5.0 - Beta](https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/releases/tag/v0.5.0)** - Ferramentas DTP/Script
+
+Todas as tags: https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/tags
 
 ## Como Baixar e Usar este Repositório (Para Leigos)
 
@@ -284,12 +250,13 @@ bash scripts/test-mkdocs-serve.sh
 
 ### Testes Automatizados:
 
-- ✅ **20/20 testes passando** (`test-all.sh`)
+- ✅ **24/24 testes passando** (`test-all.sh`)
 - ✅ Verificação de sintaxe Bash
 - ✅ Validação de scripts executáveis
 - ✅ Teste de geração de PDF
 - ✅ Verificação de CSVs
 - ✅ Criação de backups
+- ✅ Verificação de link e acesso ao PDF (HTTP 200)
 
 !!! tip "Dica"
     Sempre rode `bash scripts/check-links.sh` e `bash scripts/check-security.sh` antes de fazer commit!
