@@ -20,7 +20,7 @@ Repositório destinado ao armazenamento de materiais e pesquisas para o trabalho
 | 2 | Sara | Coordenadora |
 | 3 | Bernado | Pesquisa / Revisão |
 | 4 | Miguel | Pesquisa / Revisão |
-| 5 | Dionarley Ruas Vieira | TI, Documentos, Ilustração |
+| 5 | Dionarley | TI, Documentos, Ilustração |
 | 6 | Andre | Pesquisa / Revisão |
 
 ## Sobre o Projeto

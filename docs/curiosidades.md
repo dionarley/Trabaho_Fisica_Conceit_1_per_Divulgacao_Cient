@@ -60,7 +60,7 @@ git log --all --pretty=format:"%ad" --date=short | sort | uniq -c
 
 | Autor | Commits |
 |--------|---------|
-| Dionarley Ruas Vieira | 15+ |
+| Dionarley | 15+ |
 
 !!! tip "Curiosidade"
     Como o projeto é colaborativo, espera-se que outros membros do grupo também façam commits após configurarem o Git!
@@ -94,7 +94,7 @@ git log --all --pretty=format:"%ad" --date=short | sort | uniq -c
 | 2 | Sara | Coordenadora | ✅ Confirmada |
 | 3 | Bernado | Pesquisa / Revisão | ✅ Confirmada |
 | 4 | Miguel | Pesquisa / Revisão | ✅ Confirmada |
-| 5 | Dionarley Ruas Vieira | TI, Documentos, Ilustração | ✅ Confirmada |
+| 5 | Dionarley | TI, Documentos, Ilustração | ✅ Confirmada |
 | 6 | Andre | Pesquisa / Revisão | ✅ Confirmada |
 
 !!! info "Total: 6 membros"

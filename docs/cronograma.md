@@ -52,7 +52,7 @@
 | Sara | - | - | - | Coordenadora |
 | Bernado | - | - | - | Pesquisa / Revisão |
 | Miguel | - | - | - | Pesquisa / Revisão |
-| Dionarley Ruas Vieira | - | - | - | TI, Documentos, Ilustração |
+| Dionarley | - | - | - | TI, Documentos, Ilustração |
 | Andre | - | - | - | Pesquisa / Revisão |
 
 ## Marcos Importantes
