@@ -107,11 +107,33 @@ fi
 echo ""
 
 # Test 7: Test generate-pdf.sh (syntax check only - don't generate)
-echo "[7/7] Testing generate-pdf.sh (syntax)..."
+echo "[7/8] Testing generate-pdf.sh (syntax)..."
 if bash -n scripts/generate-pdf.sh; then
     test_passed "generate-pdf.sh has valid syntax"
 else
     test_failed "generate-pdf.sh has syntax errors"
+fi
+echo ""
+
+# Test 8: Verify PDF link in index.md
+echo "[8/8] Testing PDF link in index.md..."
+if grep -q "dionarley.github.io.*documento-isaac-newton.pdf" docs/index.md; then
+    test_passed "PDF link in index.md is correct"
+else
+    test_failed "PDF link in index.md is missing or incorrect"
+fi
+
+# Test 8b: Verify PDF is accessible (if site is deployed)
+PDF_URL=$(grep -oP 'https://dionarley\.github\.io[^)]*documento-isaac-newton\.pdf' docs/index.md | head -1)
+if [ -n "$PDF_URL" ]; then
+    HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" "$PDF_URL" 2>/dev/null || echo "000")
+    if [ "$HTTP_CODE" = "200" ]; then
+        test_passed "PDF is accessible at $PDF_URL (HTTP $HTTP_CODE)"
+    else
+        test_failed "PDF returned HTTP $HTTP_CODE at $PDF_URL"
+    fi
+else
+    test_failed "Could not extract PDF URL from index.md"
 fi
 echo ""
 

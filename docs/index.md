@@ -17,7 +17,7 @@ Bem-vindo ao repositório de materiais e pesquisas sobre Isaac Newton, desenvolv
 
 ## Download da Documentação em PDF
 
-[📄 Baixar Documentação Completa (PDF)](documento-isaac-newton.pdf){ .md-button .md-button--primary }
+[📄 Baixar Documentação Completa (PDF)](https://dionarley.github.io/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient/documento-isaac-newton.pdf){ .md-button .md-button--primary }
 
 !!! info "Sobre o PDF"
     O PDF contém toda a documentação do projeto em um único arquivo, incluindo todas as páginas, referências e recursos. Ideal para leitura offline ou impressão.
@@ -44,10 +44,10 @@ Este trabalho aborda as contribuições científicas de **Sir Isaac Newton** (16
 |---|------|--------|
 | 1 | Amanda | Administradora do WhatsApp |
 | 2 | Sara | Coordenadora |
-| 3 | Bernado | A definir |
-| 4 | Miguel | A definir |
+| 3 | Bernado | Pesquisa / Revisão |
+| 4 | Miguel | Pesquisa / Revisão |
 | 5 | Dionarley Ruas Vieira | TI, Documentos, Ilustração |
-| 6 | ? | A definir (WhatsApp final 6144) |
+| 6 | Andre | Pesquisa / Revisão |
 
 ## Estrutura do Repositório
 
@@ -82,6 +82,7 @@ Isaac_Newton/
 - [Referências](referencias.md) - Bibliografia
 - [Cronograma](cronograma.md) - Prazos e marcos
 - [Recursos](recursos.md) - Ferramentas e materiais
+- [Glossário](glossario.md) - Termos técnicos de papel e impressão
 - [Como Contribuir](contribuindo.md) - Guia para colaboradores
 - [Licença](licenca.md) - CC BY-NC-SA 4.0
 

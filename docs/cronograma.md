@@ -47,10 +47,10 @@
 |------|-----|--------|----------|--------|
 | Amanda | - | - | - | Administradora do WhatsApp |
 | Sara | - | - | - | Coordenadora |
-| Bernado | - | - | - | A definir |
-| Miguel | - | - | - | A definir |
+| Bernado | - | - | - | Pesquisa / Revisão |
+| Miguel | - | - | - | Pesquisa / Revisão |
 | Dionarley Ruas Vieira | - | - | - | TI, Documentos, Ilustração |
-| ? | - | - | ? (final 6144) | A definir |
+| Andre | - | - | - | Pesquisa / Revisão |
 
 ## Marcos Importantes
 
