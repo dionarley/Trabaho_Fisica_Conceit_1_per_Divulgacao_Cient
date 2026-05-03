@@ -1,5 +1,8 @@
 # Curiosidades sobre o Projeto
 
+*Última atualização: 02/05/2026*
+
+
 Esta página apresenta estatísticas e curiosidades sobre o desenvolvimento do projeto Isaac Newton.
 
 ## Estatísticas do Código (via cloc)

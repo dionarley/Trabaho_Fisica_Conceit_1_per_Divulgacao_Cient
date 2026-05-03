@@ -1,5 +1,8 @@
 # Proposta Inicial
 
+*Última atualização: 01/05/2026*
+
+
 !!! info "Em Desenvolvimento"
     Esta seção contém a proposta inicial do trabalho, que está sendo definida pelos membros do grupo.
     

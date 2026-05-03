@@ -1,5 +1,8 @@
 # Cronograma
 
+*Última atualização: 03/05/2026*
+
+
 !!! info "Em Definição"
     O cronograma será estabelecido pelo grupo após a definição do escopo final do trabalho.
 

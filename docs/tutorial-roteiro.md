@@ -1,5 +1,8 @@
 # Mini Tutorial: Como Criar Enredo e Roteiro para Gibi
 
+*Última atualização: 02/05/2026*
+
+
 !!! info "Para Membros do Grupo"
     Este tutorial é um guia prático para criar o enredo e roteiro do gibi sobre Isaac Newton.
     É voltado tanto para iniciantes quanto para quem já tem experiência.

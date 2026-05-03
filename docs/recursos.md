@@ -1,5 +1,8 @@
 # Recursos e Materiais
 
+*Última atualização: 02/05/2026*
+
+
 Esta página contém links, ferramentas e materiais úteis para o desenvolvimento do trabalho.
 
 ## Materiais no Repositório

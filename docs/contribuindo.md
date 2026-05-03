@@ -1,5 +1,8 @@
 # Como Contribuir
 
+*Última atualização: 02/05/2026*
+
+
 Obrigado pelo interesse em contribuir com este projeto acadêmico! Este documento fornece diretrizes para contribuições.
 
 ## Primeiros Passos - Cadastro no Grupo

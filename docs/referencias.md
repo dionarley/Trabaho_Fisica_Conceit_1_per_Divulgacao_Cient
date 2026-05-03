@@ -1,5 +1,8 @@
 # Referências Bibliográficas
 
+*Última atualização: 02/05/2026*
+
+
 Esta seção contém as referências acadêmicas e materiais de pesquisa utilizados no desenvolvimento deste trabalho.
 
 ## Artigos e Documentos em PDF

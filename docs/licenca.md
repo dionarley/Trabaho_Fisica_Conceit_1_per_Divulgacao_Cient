@@ -1,5 +1,8 @@
 # Licença
 
+*Última atualização: 02/05/2026*
+
+
 Este trabalho está licenciado sob a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
 
 ## Resumo da Licença

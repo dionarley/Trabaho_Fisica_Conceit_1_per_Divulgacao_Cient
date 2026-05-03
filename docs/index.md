@@ -1,5 +1,8 @@
 # Isaac Newton - Trabalho de Física Conceitual I
 
+*Última atualização: 03/05/2026*
+
+
 Bem-vindo ao repositório de materiais e pesquisas sobre Isaac Newton, desenvolvido para a disciplina de Física Conceitual I na **Unimontes**.
 
 **Repositório GitHub:** https://github.com/dionarley/Trabalho_Fisica_Conceit_1_per_Divulgacao_Cient

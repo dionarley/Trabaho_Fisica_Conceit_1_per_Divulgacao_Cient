@@ -1,5 +1,8 @@
 # Sobre o Projeto
 
+*Última atualização: 02/05/2026*
+
+
 ## Isaac Newton: Uma Breve Introdução
 
 Sir Isaac Newton (1642-1727) foi um dos maiores cientistas de todos os tempos. Suas contribuições revolucionaram a física, a matemática e a astronomia.

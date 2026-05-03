@@ -1,5 +1,8 @@
 # Roteiro do Gibi
 
+*Última atualização: 02/05/2026*
+
+
 !!! info "Em Desenvolvimento"
     O roteiro do gibi (história em quadrinhos) será definido e desenvolvido pelos membros/colegas de curso do grupo responsável por este trabalho.
     

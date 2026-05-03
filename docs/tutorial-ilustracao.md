@@ -1,5 +1,8 @@
 # Mini Tutorial: Como Ilustrar Quadrinhos (Estilo Mauricio de Sousa)
 
+*Última atualização: 02/05/2026*
+
+
 !!! info "Para Membros do Grupo"
     Este tutorial é um guia prático para ilustrar quadrinhos, especialmente no estilo Mauricio de Sousa.
     É voltado tanto para iniciantes quanto para quem já tem experiência.

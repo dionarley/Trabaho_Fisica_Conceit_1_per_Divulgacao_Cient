@@ -1,5 +1,8 @@
 # Rascunhos e Ideias
 
+*Última atualização: 01/05/2026*
+
+
 !!! info "Espaço para Brainstorm"
     Esta página é destinada a rascunhos, ideias em desenvolvimento e notas de pesquisa.
     

@@ -1,5 +1,8 @@
 # Galeria de Imagens
 
+*Última atualização: 02/05/2026*
+
+
 Esta seção apresenta as imagens utilizadas no projeto, organizadas por fase da vida de Isaac Newton.
 
 ## Imagens de Isaac Newton

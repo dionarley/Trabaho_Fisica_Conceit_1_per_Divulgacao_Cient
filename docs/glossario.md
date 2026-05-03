@@ -1,5 +1,8 @@
 # Glossário de Termos Técnicos
 
+*Última atualização: 03/05/2026*
+
+
 Termos técnicos específicos utilizados neste projeto (papel, impressão e gráfica) que podem ser desconhecidos.
 
 ## C

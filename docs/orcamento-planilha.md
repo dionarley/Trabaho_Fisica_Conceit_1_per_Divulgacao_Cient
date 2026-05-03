@@ -1,5 +1,8 @@
 # Planilha de Orçamento - Custos de Impressão
 
+*Última atualização: 03/05/2026*
+
+
 !!! info "Como usar esta planilha"
     Esta planilha é editável e pode ser adaptada para **qualquer cidade**.
     Substitua "[CIDADE/ESTADO]" pelos dados da sua localidade.
