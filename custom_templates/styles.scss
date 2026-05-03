@@ -3,59 +3,55 @@
 
 // Hide all elements using mask-image (not supported by WeasyPrint)
 // These are typically icons in MkDocs Material
-[class*="icon-"],
-.md-typeset [style*="mask"] {
+[style*="mask-image"] {
     display: none !important;
 }
 
-// Fix remaining icon elements that might be using Font Awesome
-.fa, .fas, .far, .fal, .fab {
-    display: inline-block !important;
-    vertical-align: middle !important;
-    font-style: normal !important;
-    width: 1.25em !important;
-    height: 1.25em !important;
-    line-height: 1.25em !important;
-    margin-right: 0.25em !important;
-}
-
-// Fix admonition icons
-.md-typeset .admonition {
-    clear: both;
-}
-
-.md-typeset .admonition::before,
-.md-typeset .admonition .admonition-title::before {
-    display: inline-block !important;
-    vertical-align: middle !important;
-    margin-right: 0.5em !important;
-}
-
-// Fix social icons in footer - hide them in PDF
+// Hide social icons in footer for PDF
 .md-footer-meta .md-social {
     display: none !important;
 }
 
-// Fix navigation icons
-.md-nav__link .twemoji,
-.md-nav__link [class*="fa-"] {
-    vertical-align: middle !important;
-    margin-right: 0.25em !important;
+// Hide navigation icons that use mask-image
+.md-nav__icon,
+.md-nav__link .md-icon,
+[class*="icon-"] {
+    display: none !important;
 }
 
-// Fix header icons
-.md-header-nav .md-typeset a [class*="fa-"] {
-    vertical-align: middle !important;
+// Fix admonition icons - use text fallback
+.md-typeset .admonition::before,
+.md-typeset .admonition .admonition-title::before {
+    display: none !important;
 }
 
-// Fix search icon
-.md-search__icon {
-    display: inline-block !important;
-    vertical-align: middle !important;
+// Add text labels for admonitions as fallback
+.md-typeset .admonition.note .admonition-title::before {
+    content: "[Note] " !important;
+    display: inline !important;
+    font-weight: bold !important;
 }
 
-// Ensure proper line-height for text with icons
-.md-typeset p [class*="fa-"],
-.md-typeset li [class*="fa-"] {
-    line-height: inherit !important;
+.md-typeset .admonition.tip .admonition-title::before {
+    content: "[Tip] " !important;
+    display: inline !important;
+    font-weight: bold !important;
+}
+
+.md-typeset .admonition.warning .admonition-title::before {
+    content: "[Warning] " !important;
+    display: inline !important;
+    font-weight: bold !important;
+}
+
+.md-typeset .admonition.danger .admonition-title::before {
+    content: "[Danger] " !important;
+    display: inline !important;
+    font-weight: bold !important;
+}
+
+// Ensure proper spacing for text with icons
+.md-typeset p,
+.md-typeset li {
+    line-height: 1.6 !important;
 }
