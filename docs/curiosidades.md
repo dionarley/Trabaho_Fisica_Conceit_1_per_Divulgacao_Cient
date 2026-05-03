@@ -92,10 +92,10 @@ git log --all --pretty=format:"%ad" --date=short | sort | uniq -c
 |---|------|--------|--------|
 | 1 | Amanda | Administradora do WhatsApp | ✅ Confirmada |
 | 2 | Sara | Coordenadora | ✅ Confirmada |
-| 3 | Bernado | A definir | ✅ Confirmada |
-| 4 | Miguel | A definir | ✅ Confirmada |
+| 3 | Bernado | Pesquisa / Revisão | ✅ Confirmada |
+| 4 | Miguel | Pesquisa / Revisão | ✅ Confirmada |
 | 5 | Dionarley Ruas Vieira | TI, Documentos, Ilustração | ✅ Confirmada |
-| 6 | ? (WhatsApp final 6144) | A definir | ✅ Confirmada |
+| 6 | Andre | Pesquisa / Revisão | ✅ Confirmada |
 
 !!! info "Total: 6 membros"
     Todos os membros confirmaram participação via formulário Google!
