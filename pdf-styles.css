@@ -1,0 +1,46 @@
+/* Custom CSS for PDF generation - Fix icon alignment */
+/* Hide FontAwesome icons in PDF to avoid rendering issues */
+
+/* Hide social icons in header */
+.md-header__source .md-source__icon,
+.md-header__source .md-source__repository {
+    display: none !important;
+}
+
+/* Hide icons in buttons */
+.md-button .twemoji,
+.md-button .fa,
+.md-button .fas,
+.md-button .fab,
+.md-button .far,
+.md-button .fal,
+.md-button .fad,
+.md-button .svg-inline--fa {
+    display: none !important;
+}
+
+/* Hide social links with icons */
+.md-footer-social .md-footer-social__link svg,
+.md-footer-social .md-footer-social__link .fa,
+.md-footer-social .md-footer-social__link .fab {
+    display: none !important;
+}
+
+/* Fix any remaining icon alignment issues */
+.md-typeset .admonition .admonition-title::before,
+.md-typeset .admonition-title::before {
+    vertical-align: middle !important;
+}
+
+/* Ensure proper text alignment when icons are hidden */
+.md-button {
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+}
+
+/* Hide specific FontAwesome icon references that WeasyPrint can't render */
+.icon,
+[class*="fa-"],
+[class*="fontawesome"] {
+    display: none !important;
+}
