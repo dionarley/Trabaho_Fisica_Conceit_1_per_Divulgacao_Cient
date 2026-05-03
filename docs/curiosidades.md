@@ -60,7 +60,12 @@ git log --all --pretty=format:"%ad" --date=short | sort | uniq -c
 
 | Autor | Commits |
 |--------|---------|
-| Dionarley | 15+ |
+| Amanda | Membro |
+| Sara | Membro |
+| Bernado | Membro |
+| Miguel | Membro |
+| Andre | Membro |
+| Dionarley | 15+ commits |
 
 !!! tip "Curiosidade"
     Como o projeto é colaborativo, espera-se que outros membros do grupo também façam commits após configurarem o Git!

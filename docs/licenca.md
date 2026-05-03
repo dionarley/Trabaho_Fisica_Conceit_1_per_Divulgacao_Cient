@@ -53,7 +53,7 @@ A licença não fornece garantias e não restringe os seus direitos de uso justo
 Ao usar este trabalho, inclua a seguinte atribuição:
 
 ```markdown
-Isaac Newton - Trabalho de Física Conceitual I por Dionarley está licenciado sob 
+Isaac Newton - Trabalho de Física Conceitual I por Amanda, Sara, Bernado, Miguel, Andre, Dionarley está licenciado sob 
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 ```
 
@@ -61,7 +61,7 @@ Ou em formato BibTeX:
 
 ```bibtex
 @misc{newton2026,
-  author = {Dionarley},
+  author = {Amanda, Sara, Bernado, Miguel, Andre, Dionarley},
   title = {Isaac Newton - Trabalho de Física Conceitual I},
   year = {2026},
   publisher = {Unimontes},

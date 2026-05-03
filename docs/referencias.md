@@ -64,7 +64,7 @@ Para citar este trabalho:
 
 ```bibtex
 @misc{newton2026trabalho,
-  author = {Dionarley},
+  author = {Amanda, Sara, Bernado, Miguel, Andre, Dionarley},
   title = {Isaac Newton - Trabalho de Física Conceitual I},
   year = {2026},
   publisher = {Unimontes},
