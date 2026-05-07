@@ -31,6 +31,22 @@ for arg in "$@"; do
     esac
 done
 
+# Step 0: Sync dates before build
+echo "[0/4] Syncing dates with commits..."
+if [ -x "$SCRIPT_DIR/update-dates.sh" ]; then
+    bash "$SCRIPT_DIR/update-dates.sh" 2>/dev/null || true
+    # Auto-commit date updates if any
+    cd "$PROJECT_ROOT"
+    if ! git diff --quiet docs/ 2>/dev/null; then
+        git add docs/
+        git commit -m "Sync: update dates before deploy" 2>/dev/null || true
+    fi
+    echo "✓ Dates synced"
+else
+    echo "⚠️  update-dates.sh not found, skipping"
+fi
+echo ""
+
 # Step 1: Install dependencies
 echo "[1/4] Checking/installing dependencies..."
 if [ "$GENERATE_PDF" = true ]; then
