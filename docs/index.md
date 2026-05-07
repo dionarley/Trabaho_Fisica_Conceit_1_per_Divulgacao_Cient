@@ -45,11 +45,11 @@ Este trabalho aborda as contribuições científicas de **Sir Isaac Newton** (16
 
 | # | Nome | Função |
 |---|------|--------|
-| 1 | Amanda | Administradora do WhatsApp |
-| 2 | Sara | Coordenadora |
+| 1 | Amanda | A definir |
+| 2 | Sara | A definir |
 | 3 | Bernado | A definir |
 | 4 | Miguel | A definir |
-| 5 | Dionarley | TI, Documentos, Ilustração |
+| 5 | Dionarley | A definir |
 | 6 | Andre | A definir |
 
 ## Estrutura do Repositório

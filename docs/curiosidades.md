@@ -61,12 +61,12 @@ git log --all --pretty=format:"%ad" --date=short | sort | uniq -c
 
 | Autor | Função |
 |--------|---------|
-| Amanda | Administradora do WhatsApp |
-| Sara | Coordenadora |
+| Amanda | A definir |
+| Sara | A definir |
 | Bernado | A definir |
 | Miguel | A definir |
 | Andre | A definir |
-| Dionarley | TI, Documentos, Ilustração |
+| Dionarley | A definir |
 
 !!! tip "Curiosidade"
     Como o projeto é colaborativo, espera-se que outros membros do grupo também façam commits após configurarem o Git!

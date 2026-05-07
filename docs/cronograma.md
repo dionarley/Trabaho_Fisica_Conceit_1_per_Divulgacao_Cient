@@ -48,11 +48,11 @@
 
 | Nome | RAM | E-mail | WhatsApp | Função |
 |------|-----|--------|----------|--------|
-| Amanda | - | - | - | Administradora do WhatsApp |
-| Sara | - | - | - | Coordenadora |
+| Amanda | - | - | - | A definir |
+| Sara | - | - | - | A definir |
 | Bernado | - | - | - | A definir |
 | Miguel | - | - | - | A definir |
-| Dionarley | - | - | - | TI, Documentos, Ilustração |
+| Dionarley | - | - | - | A definir |
 | Andre | - | - | - | A definir |
 
 ## Marcos Importantes
