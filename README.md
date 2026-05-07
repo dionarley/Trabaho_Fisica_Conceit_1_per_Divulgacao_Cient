@@ -16,12 +16,12 @@ Repositório destinado ao armazenamento de materiais e pesquisas para o trabalho
 
 | # | Nome | Função |
 |---|------|--------|
-| 1 | Amanda | Administradora do WhatsApp |
-| 2 | Sara | Coordenadora |
-| 3 | Bernado | Pesquisa / Revisão |
-| 4 | Miguel | Pesquisa / Revisão |
-| 5 | Dionarley | TI, Documentos, Ilustração |
-| 6 | Andre | Pesquisa / Revisão |
+| 1 | Amanda | A definir |
+| 2 | Sara | A definir |
+| 3 | Bernado | A definir |
+| 4 | Miguel | A definir |
+| 5 | Dionarley | A definir |
+| 6 | Andre | A definir |
 
 ## Sobre o Projeto
 
