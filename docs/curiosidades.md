@@ -56,3 +56,17 @@ git log --all --pretty=format:"%ad" --date=short | sort | uniq -c
 | **Primeiro commit** | 2026 (início do projeto) |
 | **Último commit** | (ver `git log -1`) |
 
+
+### Contribuidores:
+
+| Autor | Função |
+|--------|---------|
+| Amanda | Administradora do WhatsApp |
+| Sara | Coordenadora |
+| Bernado | A definir |
+| Miguel | A definir |
+| Andre | A definir |
+| Dionarley | TI, Documentos, Ilustração |
+
+!!! tip "Curiosidade"
+    Como o projeto é colaborativo, espera-se que outros membros do grupo também façam commits após configurarem o Git!

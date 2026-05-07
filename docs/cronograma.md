@@ -50,10 +50,10 @@
 |------|-----|--------|----------|--------|
 | Amanda | - | - | - | Administradora do WhatsApp |
 | Sara | - | - | - | Coordenadora |
-| Bernado | - | - | - | Pesquisa / Revisão |
-| Miguel | - | - | - | Pesquisa / Revisão |
+| Bernado | - | - | - | A definir |
+| Miguel | - | - | - | A definir |
 | Dionarley | - | - | - | TI, Documentos, Ilustração |
-| Andre | - | - | - | Pesquisa / Revisão |
+| Andre | - | - | - | A definir |
 
 ## Marcos Importantes
 
